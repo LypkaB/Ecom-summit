@@ -1,4 +1,39 @@
 /* -------------------------------------------------
+	Font
+   ------------------------------------------------- */
+@font-face {
+    font-family: 'AvenirLTStdRoman';
+    src: url('../font/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd';
+    src: url('../font/AvenirLTStd-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd';
+    src: url('../font/AvenirLTStd-Heavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd';
+    src: url('../font/AvenirLTStd-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* -------------------------------------------------
 	Base styles
    ------------------------------------------------- */
 * {
