@@ -113,3 +113,28 @@ header {
     background-color: #fdad00;
     border-radius: 3px;
 }
+
+/* -------------------------------------------------
+	Offer
+   ------------------------------------------------- */
+.offer {
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    background-color: #371a84;
+}
+
+.offer__content {
+    padding: 17px 0;
+    text-align: center;
+}
+
+.offer__content span {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    color: white;
+}
+
+.offer__content span:first-child {
+    font-weight: 500;
+    color: #fdad00;
+}
