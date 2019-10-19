@@ -196,6 +196,11 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.banner__info {
+    width: 100%;
+    position: absolute;
+}
+
 .btn-get {
     display: block;
     width: 100%;
@@ -212,5 +217,17 @@ h1 {
     line-height: 16px;
     color: white;
     text-transform: uppercase;
-    position: absolute;
+}
+
+.banner__info span:nth-child(2) {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    color: black;
+}
+
+.banner__info span:nth-child(3) {
+    font-weight: 500;
 }
