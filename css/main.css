@@ -231,3 +231,56 @@ h1 {
 .banner__info span:nth-child(3) {
     font-weight: 500;
 }
+
+/* -------------------------------------------------
+	Team
+   ------------------------------------------------- */
+.team {
+    margin-top: 135px;
+}
+
+.team__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.team__block-item {
+    padding: 0 27px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.team__block-item img:nth-child(1) {
+    margin-top: 40px;
+}
+
+.team__block-item span {
+    width: 225px;
+    display: block;
+}
+
+.team__block-item span:nth-child(2) {
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    color: black;
+}
+
+.team__block-item span:nth-child(3) {
+    font-weight: 500;
+    line-height: 26px;
+    color: #565656;
+}
+
+.team__block-item img:nth-child(4) {
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
