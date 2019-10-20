@@ -401,18 +401,21 @@ h1 {
 /* -------------------------------------------------
 	Question #1
    ------------------------------------------------- */
-.question-1 {
+.question-1,
+.question-2 {
     margin-top: 108px;
     padding-bottom: 150px;
     background-image: linear-gradient(226deg, #6739ba 0%, #371a84 100%);
     text-align: center;
 }
 
-.question-1 span {
+.question-1 span,
+.question-2 span {
     display: inline-block;
 }
 
-.question-1 span:nth-child(1) {
+.question-1 span:nth-child(1),
+.question-2 span:nth-child(1) {
     margin-top: 70px;
     font-size: 30px;
     font-weight: 800;
@@ -420,7 +423,8 @@ h1 {
     color: #fdad00;
 }
 
-.question-1 h2 {
+.question-1 h2,
+.question-2 h2 {
     font-size: 36px;
     color: white;
 }
@@ -504,7 +508,7 @@ h1 {
     justify-content: space-between;
 }
 
-.img-container {
+.answer-1__img-inner {
     width: 137px;
     border: 5px solid white;
     border-radius: 5px;
@@ -512,6 +516,15 @@ h1 {
     box-shadow: 0 0 64px rgba(0, 0, 0, 0.43);
 }
 
-.img-container img {
+.answer-1__img-inner img {
     width: 100%;
+}
+
+/* -------------------------------------------------
+	Question #2
+   ------------------------------------------------- */
+.question-2__text p {
+    margin-top: 55px;
+    line-height: 27px;
+    color: white;
 }
