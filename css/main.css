@@ -168,6 +168,7 @@ h1 {
 }
 
 .banner h3 {
+    margin-bottom: 35px;
     padding: 30px 150px 0 150px;
     font-size: 20px;
     font-weight: 800;
@@ -176,7 +177,6 @@ h1 {
 }
 
 .banner__video {
-    margin-top: 35px;
     position: relative;
 }
 
@@ -366,7 +366,7 @@ h1 {
 	About
    ------------------------------------------------- */
 .about {
-    margin-top: 67px;
+    margin: 67px 0;
 }
 
 .about__desc {
@@ -401,21 +401,14 @@ h1 {
 /* -------------------------------------------------
 	Question #1
    ------------------------------------------------- */
-.question-1,
-.question-2 {
-    margin-top: 108px;
+.question {
     padding-bottom: 150px;
     background-image: linear-gradient(226deg, #6739ba 0%, #371a84 100%);
     text-align: center;
 }
 
-.question-1 span,
-.question-2 span {
+.question__title span {
     display: inline-block;
-}
-
-.question-1 span:nth-child(1),
-.question-2 span:nth-child(1) {
     margin-top: 70px;
     font-size: 30px;
     font-weight: 800;
@@ -423,17 +416,17 @@ h1 {
     color: #fdad00;
 }
 
-.question-1 h2,
-.question-2 h2 {
+.question__title h2 {
     font-size: 36px;
     color: white;
 }
 
-.question-1 img {
+.question-1__content img {
     margin-top: 55px;
 }
 
-.question-1 span:nth-child(4) {
+.question-1__content span {
+    display: inline-block;
     margin-top: 45px;
     font-size: 18px;
     font-weight: 800;
@@ -444,11 +437,17 @@ h1 {
 /* -------------------------------------------------
 	Answer #1
    ------------------------------------------------- */
+.answer-1 {
+    margin-bottom: 68px;
+}
+
 .answer-title {
     display: inline-block;
     margin-top: -115px;
     margin-bottom: 35px;
-    padding: 45px 52px 45px 52px;
+    width: 600px;
+    height: 184px;
+    padding: 40px 52px 0 52px;
     font-size: 26px;
     font-weight: 800;
     line-height: 35px;
@@ -534,6 +533,14 @@ h1 {
 /* -------------------------------------------------
 	Answer #2
    ------------------------------------------------- */
+.answer-2 {
+    margin-bottom: 40px;
+}
+
+.answer-2-title {
+    padding-top: 60px;
+}
+
 .answer-2__content {
     text-align: center;
 }
@@ -565,4 +572,67 @@ h1 {
     font-size: 30px;
     font-weight: 800;
     line-height: 50px;
+}
+
+/* -------------------------------------------------
+	Results
+   ------------------------------------------------- */
+.results {
+    height: 1044px;
+    background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
+}
+
+.results__content {
+    text-align: center;
+}
+
+.results span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fdad00;
+}
+
+/* -------------------------------------------------
+	Answer #3
+   ------------------------------------------------- */
+.answer-3 {
+    margin-bottom: 40px;
+}
+
+.answer-3-title {
+    padding: 20px 20px 0 20px;
+}
+
+.answer-3__content {
+    text-align: center;
+}
+
+.answer-3__content-desc span + span {
+    margin-top: 30px;
+    padding: 0 22px;
+    display: inline-block;
+    line-height: 27px;
+    color: #565656;
+}
+
+.answer-3__content-desc span:nth-child(1) {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #c52a2a;
+}
+
+.btn-get-answer {
+    padding-top: 35px;
+    margin-bottom: 30px;
+}
+
+.btn-get-answer span {
+    border-bottom: 2px solid white;
+}
+
+.answer-3__content-desc ~ span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
 }
