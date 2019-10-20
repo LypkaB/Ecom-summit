@@ -402,14 +402,14 @@ h1 {
 	Question #1
    ------------------------------------------------- */
 .question,
-.faq {
+.faq-title {
     padding-bottom: 150px;
     background-image: linear-gradient(226deg, #6739ba 0%, #371a84 100%);
     text-align: center;
 }
 
 .question__title span,
-.faq-title {
+.faq-text {
     display: inline-block;
     margin-top: 70px;
     font-size: 30px;
@@ -467,11 +467,6 @@ h1 {
     line-height: 30px;
 }
 
-.answer-1__text p span {
-    font-weight: 800;
-    text-decoration: underline;
-}
-
 .answer-1__text ul,
 .answer-4__text ul,
 .answer-5__text ul {
@@ -498,6 +493,7 @@ h1 {
 
 .answer-1__info p {
     margin-top: 45px;
+    font-weight: 800;
     line-height: 30px;
 }
 
@@ -630,16 +626,19 @@ h1 {
     margin-bottom: 30px;
 }
 
-.answer__block-buy span {
+.buy__block {
+    text-align: center;
+}
+
+.buy__block span {
     border-bottom: 2px solid white;
 }
 
-.answer__block-buy > span {
+.buy__block > span {
     font-size: 20px;
     font-weight: 500;
     line-height: 36px;
 }
-
 /* -------------------------------------------------
 	Question #4
    ------------------------------------------------- */
@@ -671,15 +670,12 @@ h1 {
 .answer-4__text li,
 .answer-5__text li {
     margin-left: 50px;
+    font-weight: 800;
     line-height: 50px;
 }
 
 .answer-4__text span:nth-child(5) {
     text-decoration: underline;
-}
-
-.answer-4__block-buy {
-    text-align: center;
 }
 
 /* -------------------------------------------------
@@ -695,12 +691,55 @@ h1 {
 }
 
 /* -------------------------------------------------
-	F.A.Q
+	F.A.Q title
    ------------------------------------------------- */
-.faq {
+.faq-title {
     padding-bottom: 35px;
 }
 
-.faq-title {
+.faq-text {
     margin-top: 35px;
+}
+
+/* -------------------------------------------------
+	F.A.Q
+   ------------------------------------------------- */
+.faq__text {
+    margin-top: 30px;
+}
+
+.faq__text span {
+    display: inline-block;
+}
+
+.faq-question {
+    margin-bottom: 23px;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.faq-answer {
+    font-weight: 500;
+    line-height: 26px;
+    color: #565656;
+}
+
+.faq-answer span {
+    margin-top: 35px;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 35px 0;
+}
+
+.buy__block + div {
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.buy__block + div span {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
 }
