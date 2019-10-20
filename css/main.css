@@ -448,11 +448,12 @@ h1 {
     display: inline-block;
     margin-top: -115px;
     margin-bottom: 35px;
+    padding: 45px 52px 45px 52px;
     font-size: 26px;
     font-weight: 800;
     line-height: 35px;
     color: #fdad00;
-    padding: 45px 52px 45px 52px;
+    text-align: center;
     box-shadow: 0 12px 5px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     border: 2px solid #fdad00;
@@ -516,7 +517,8 @@ h1 {
     box-shadow: 0 0 64px rgba(0, 0, 0, 0.43);
 }
 
-.answer-1__img-inner img {
+.answer-1__img-inner img,
+.answer-2__img-inner img {
     width: 100%;
 }
 
@@ -527,4 +529,40 @@ h1 {
     margin-top: 55px;
     line-height: 27px;
     color: white;
+}
+
+/* -------------------------------------------------
+	Answer #2
+   ------------------------------------------------- */
+.answer-2__content {
+    text-align: center;
+}
+
+.answer-2__img-inner {
+    margin-top: 27px;
+    width: 600px;
+}
+
+.answer-2__img-inner img {
+    -webkit-box-shadow: 0 0 64px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.08);
+    border: 2px solid #dde6d7;
+}
+
+.answer-2__content span {
+    display: inline-block;
+}
+
+.answer-2__content span:nth-child(4) {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 49px;
+}
+
+.answer-2__content span:nth-child(5) {
+    margin-top: 14px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
 }
