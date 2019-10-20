@@ -470,20 +470,19 @@ h1 {
     text-decoration: underline;
 }
 
-.answer-1__text ul {
+.answer-1__text ul,
+.answer-4__text ul {
     position: relative;
 }
 
 .answer-1__text li {
     margin-top: 45px;
     margin-left: 50px;
-}
-
-.answer-1__text li {
     line-height: 30px;
 }
 
-.answer-1__text li::before {
+.answer-1__text li::before,
+.answer-4__text li::before {
     content: '';
     margin-top: 7px;
     width: 30px;
@@ -627,11 +626,11 @@ h1 {
     margin-bottom: 30px;
 }
 
-.btn-get-answer span {
+.answer__block-buy span {
     border-bottom: 2px solid white;
 }
 
-.answer-3__content-desc ~ span {
+.answer__block-buy > span {
     font-size: 20px;
     font-weight: 500;
     line-height: 36px;
@@ -642,4 +641,35 @@ h1 {
    ------------------------------------------------- */
 .question-4 {
     padding-bottom: 80px;
+}
+
+/* -------------------------------------------------
+	Answer #4
+   ------------------------------------------------- */
+.answer-4__text {
+    margin-bottom: 35px;
+}
+
+.answer-4__text span {
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.answer-4__text ul {
+    margin-top: 40px;
+}
+
+.answer-4__text li {
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+.answer-4__text span:nth-child(5) {
+    text-decoration: underline;
+}
+
+.answer-4__block-buy {
+    text-align: center;
 }
