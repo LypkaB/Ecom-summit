@@ -471,7 +471,8 @@ h1 {
 }
 
 .answer-1__text ul,
-.answer-4__text ul {
+.answer-4__text ul,
+.answer-5__text ul {
     position: relative;
 }
 
@@ -482,9 +483,10 @@ h1 {
 }
 
 .answer-1__text li::before,
-.answer-4__text li::before {
+.answer-4__text li::before,
+.answer-5__text li::before {
     content: '';
-    margin-top: 7px;
+    margin-top: 4px;
     width: 30px;
     height: 30px;
     background-image: url('../images/answer-1/checkbox.svg');
@@ -651,18 +653,21 @@ h1 {
     margin-bottom: 35px;
 }
 
-.answer-4__text span {
+.answer-4__text span,
+.answer-5__text span {
     display: inline-block;
-    margin-top: 45px;
+    margin-top: 30px;
     font-size: 18px;
     line-height: 30px;
 }
 
-.answer-4__text ul {
+.answer-4__text ul,
+.answer-5__text ul {
     margin-top: 40px;
 }
 
-.answer-4__text li {
+.answer-4__text li,
+.answer-5__text li {
     margin-left: 50px;
     line-height: 50px;
 }
@@ -673,4 +678,16 @@ h1 {
 
 .answer-4__block-buy {
     text-align: center;
+}
+
+/* -------------------------------------------------
+	Answer #5
+   ------------------------------------------------- */
+.answer-5 {
+    margin-bottom: 68px;
+}
+
+.answer-5__text li {
+    margin-top: 35px;
+    line-height: 26px;
 }
