@@ -230,7 +230,6 @@ h1 {
     font-size: 20px;
     font-weight: 800;
     line-height: 36px;
-    color: black;
 }
 
 .banner__info span:nth-child(3) {
@@ -276,7 +275,6 @@ h1 {
     font-size: 20px;
     font-weight: 800;
     line-height: 36px;
-    color: black;
 }
 
 .team__block-item span:nth-child(3) {
@@ -295,7 +293,6 @@ h1 {
    ------------------------------------------------- */
 .sidebar {
     float: right;
-
     width: 276px;
     height: 485px;
     margin-top: 67px;
@@ -340,7 +337,6 @@ h1 {
     margin-top: 25px;
     font-size: 20px;
     font-weight: 800;
-    color: black;
 }
 
 .sidebar span:nth-child(4) {
@@ -386,15 +382,15 @@ h1 {
     font-size: 24px;
     font-weight: 800;
     line-height: 38px;
-    color: black;
 }
 
 .about__text {
     margin-top: 63px;
 }
 
-.about__text p + p {
-    margin-top: 20px;
+.about__text p + p,
+.answer-1__text p + p {
+    margin-top: 30px;
 }
 
 .about__text p {
@@ -407,7 +403,7 @@ h1 {
    ------------------------------------------------- */
 .question-1 {
     margin-top: 108px;
-    padding-bottom: 115px;
+    padding-bottom: 150px;
     background-image: linear-gradient(226deg, #6739ba 0%, #371a84 100%);
     text-align: center;
 }
@@ -439,4 +435,83 @@ h1 {
     font-weight: 800;
     line-height: 30px;
     color: white;
+}
+
+/* -------------------------------------------------
+	Answer #1
+   ------------------------------------------------- */
+.answer-title {
+    display: inline-block;
+    margin-top: -115px;
+    margin-bottom: 35px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #fdad00;
+    padding: 45px 52px 45px 52px;
+    box-shadow: 0 12px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: 2px solid #fdad00;
+    background-color: #231151;
+}
+
+.answer-1__text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.answer-1__text p span {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.answer-1__text ul {
+    position: relative;
+}
+
+.answer-1__text li {
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.answer-1__text li {
+    line-height: 30px;
+}
+
+.answer-1__text li::before {
+    content: '';
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/answer-1/checkbox.svg');
+    position: absolute;
+    left: 0;
+}
+
+.answer-1__info p {
+    margin-top: 45px;
+    line-height: 30px;
+}
+
+.answer-1__info-screens {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.img-container {
+    width: 137px;
+    border: 5px solid white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 64px rgba(0, 0, 0, 0.43);
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.43);
+}
+
+.img-container img {
+    width: 100%;
 }
