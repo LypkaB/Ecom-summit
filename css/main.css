@@ -393,7 +393,7 @@ h1 {
 
 .answer-title {
     display: inline-block;
-    margin-top: -115px;
+    margin-top: -75px;
     margin-bottom: 35px;
     width: 600px;
     height: 184px;
@@ -486,6 +486,7 @@ h1 {
 }
 
 .answer-2-title {
+    margin-top: -35px;
     padding-top: 60px;
 }
 
@@ -562,6 +563,7 @@ h1 {
 }
 
 .answer-3-title {
+    margin-top: -55px;
     padding: 20px 20px 0 20px;
 }
 
