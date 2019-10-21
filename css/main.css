@@ -659,7 +659,6 @@ h1 {
 
 .buy__block > span {
     display: block;
-    margin-bottom: 30px;
     font-size: 20px;
     font-weight: 500;
     line-height: 36px;
@@ -683,6 +682,7 @@ h1 {
 }
 
 .buy__block-img-2 {
+    margin-top: 35px;
     margin-bottom: 45px;
 }
 
@@ -749,11 +749,17 @@ h1 {
 	Proof
    ------------------------------------------------- */
 .proof-bg {
-    height: 824px;
+    height: 801px;
 }
 
 .proof {
-    height: 824px;
+    position: relative;
+}
+
+.proof-img {
+    width: 700px;
+    margin-top: 10px;
+    margin-left: -50px;
 }
 
 /* -------------------------------------------------
