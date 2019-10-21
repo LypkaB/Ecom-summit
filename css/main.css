@@ -102,6 +102,14 @@ header {
     align-items: center;
 }
 
+.logo {
+    width: 163px;
+}
+
+.logo img {
+    width: 100%;
+}
+
 .header__list ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -892,7 +900,15 @@ footer {
 
 .footer__info {
     padding: 0 150px;
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .footer__info span,
