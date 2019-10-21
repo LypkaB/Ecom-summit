@@ -379,7 +379,9 @@ h1 {
 }
 
 .question__title h2 {
+    padding: 0 5px;
     font-size: 36px;
+    line-height: 50px;
     color: white;
 }
 
@@ -500,7 +502,7 @@ h1 {
 
 .answer-2-title {
     margin-top: -35px;
-    padding-top: 60px;
+    padding: 42px 60px 0 60px;
 }
 
 .answer-2__content {
