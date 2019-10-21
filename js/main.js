@@ -1,16 +1,5 @@
-$(function () {
-    /*<----- Popup window for video ----->*/
-    $('.popup-video').magnificPopup({
-        type: 'iframe',
-        preloader: true,
-        iframe: {
-            patterns: {
-                vimeo: {
-                    index: 'vimeo.com/',
-                    id: '/',
-                    src: '//player.vimeo.com/video/%id%?autoplay=1'
-                }
-            }
-        }
-    });
+/*<----- Play video ----->*/
+$('.banner__video-btn-play').click(function() {
+    $('.banner__video-btn-play, .banner__video img').css('display', 'none');
+    $('.banner__video-player').css('display', 'block');
 });

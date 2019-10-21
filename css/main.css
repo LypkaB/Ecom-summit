@@ -206,7 +206,7 @@ h1 {
     border-radius: 4px;
 }
 
-.btn-play {
+.banner__video-btn-play {
     width: 100px;
     height: 100px;
     background: url(../images/banner/btn-play.svg) no-repeat;
@@ -216,6 +216,11 @@ h1 {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.banner__video-player {
+    display: none;
 }
 
 .banner__info {
