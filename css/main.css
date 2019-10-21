@@ -606,20 +606,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-.buy__block {
-    text-align: center;
-}
-
-.buy__block span {
-    border-bottom: 2px solid white;
-}
-
-.buy__block > span {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
-}
-
 /* -------------------------------------------------
 	Question #4
    ------------------------------------------------- */
@@ -661,6 +647,43 @@ h1 {
 
 .answer-4__text span:nth-child(5) {
     text-decoration: underline;
+}
+
+.buy__block {
+    text-align: center;
+}
+
+.buy__block span {
+    border-bottom: 2px solid white;
+}
+
+.buy__block > span {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.buy__block + div {
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.buy__block + div span {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.buy__block-img-1 {
+    width: 700px;
+    margin-left: -50px;
+    margin-bottom: -5px;
+}
+
+.buy__block-img-2 {
+    margin-bottom: 45px;
 }
 
 /* -------------------------------------------------
@@ -720,23 +743,6 @@ h1 {
 .faq-separator {
     border: 1px solid black;
     margin: 35px 0;
-}
-
-.buy__block + div {
-    margin-bottom: 27px;
-    text-align: center;
-}
-
-.buy__block + div span {
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 50px;
-}
-
-.buy__block-img {
-    width: 700px;
-    margin-left: -50px;
-    margin-bottom: -5px;
 }
 
 /* -------------------------------------------------
