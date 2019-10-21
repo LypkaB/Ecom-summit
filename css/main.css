@@ -533,7 +533,6 @@ h1 {
 }
 
 .results {
-    height: 1044px;
     position: relative;
 }
 
@@ -541,7 +540,17 @@ h1 {
     text-align: center;
 }
 
+.results-img {
+    margin-bottom: 15px;
+}
+
+.results-img img {
+    width: 100%;
+}
+
 .results span {
+    display: inline-block;
+    margin-bottom: 56px;
     font-size: 18px;
     font-weight: 500;
     color: #fdad00;
