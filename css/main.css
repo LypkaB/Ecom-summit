@@ -356,9 +356,8 @@ h1 {
     left: 0;
 }
 
-.question-1-bg,
-.question-2-bg {
-    height: 761px;
+.question-1-bg {
+    height: 785px;
 }
 
 .question,
@@ -412,7 +411,7 @@ h1 {
     margin-bottom: 35px;
     width: 600px;
     height: 184px;
-    padding: 40px 52px 0 52px;
+    padding: 40px 49px 0 49px;
     font-size: 26px;
     font-weight: 800;
     line-height: 35px;
@@ -486,6 +485,10 @@ h1 {
 /* -------------------------------------------------
 	Question #2
    ------------------------------------------------- */
+.question-2-bg {
+    height: 770px;
+}
+
 .question-2__text p {
     margin-top: 55px;
     line-height: 27px;
@@ -501,7 +504,7 @@ h1 {
 }
 
 .answer-2-title {
-    margin-top: -35px;
+    margin-top: -50px;
     padding: 42px 60px 0 60px;
 }
 
@@ -575,7 +578,7 @@ h1 {
 	Question #3
    ------------------------------------------------- */
 .question-3-bg {
-    height: 745px;
+    height: 755px;
 }
 
 /* -------------------------------------------------
