@@ -1,0 +1,330 @@
+@media (max-width: 960px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    /*<----- Banner ----->*/
+    .banner__info {
+        left: 0;
+        padding: 0 10px;
+    }
+
+    /*<----- Split page ----->*/
+    .container__section {
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    /*<----- Sidebar ----->*/
+    .sidebar {
+        display: none;
+    }
+
+    /*<----- About ----->*/
+    .about .container__section {
+        text-align: left;
+    }
+
+    /*<----- Question #1 ----->*/
+    .question-1-bg {
+        height: 690px;
+    }
+
+    /*<----- Answer #1 ----->*/
+    .answer-1__info-screens {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
+    }
+
+    .answer-1__text,
+    .answer-1__info,
+    .answer-4__text ul,
+    .answer-5__text ul {
+        text-align: left;
+    }
+
+    /*<----- Answer #2 ----->*/
+    .answer-2__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    /*<----- Results ----->*/
+    .results-bg {
+        height: 1525px;
+    }
+
+    /*<----- Question #3 ----->*/
+    .question-3-bg {
+        height: 710px;
+    }
+
+    /*<----- Answer #4 ----->*/
+    .answer-4__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    /*<----- Answer #5 ----->*/
+    .answer-5 {
+        margin-bottom: 20px;
+    }
+
+    /*!*<----- Proof ----->*!*/
+    .proof {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 880px) {
+    /*<----- Team ----->*/
+    .team__block-item {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 803px) {
+    /*<----- Question #1 ----->*/
+    .question-1-bg,
+    .question-2-bg,
+    .question-3-bg {
+        height: 740px;
+    }
+}
+
+@media (max-width: 780px) {
+    /*<----- Team ----->*/
+    .team__block-item {
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 740px) {
+    /*<----- Header ----->*/
+    .header__list {
+        display: none;
+    }
+
+    /*<----- Question #1 ----->*/
+    .question-1-bg,
+    .question-2-bg,
+    .question-3-bg {
+        height: 760px;
+    }
+
+    /*<----- Team ----->*/
+    .team__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team__block-item {
+        margin-bottom: 20px;
+        flex-basis: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    /*<----- About ----->*/
+    .about {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    /*<----- About ----->*/
+    .about__desc {
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about__desc img,
+    .about__text {
+        margin-top: 20px;
+    }
+
+    /*<----- Footer ----->*/
+    .footer__content {
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .footer__desc {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    /*<----- Banner ----->*/
+    .banner h3 {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .banner__info span {
+        display: inline-block;
+    }
+
+    /*<----- Question #2 ----->*/
+    .question-2-bg {
+        height: 745px;
+    }
+    /*<----- Question #3 ----->*/
+    .question-3-bg {
+        height: 770px;
+    }
+
+    /*<----- Answer #1 ----->*/
+    .answer-1 {
+        margin-bottom: 30px;
+    }
+
+    .answer-1__info-screens {
+        flex-wrap: wrap;
+    }
+
+    .answer-1__img-inner {
+        margin-bottom: 20px;
+        flex-basis: 40%;
+    }
+
+    /*<----- Footer ----->*/
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .question-2-bg {
+        height: 820px;
+    }
+
+    .question-3-bg {
+        height: 870px;
+    }
+
+    .question__title span, .faq-text {
+        margin-top: 45px;
+    }
+
+    .faq-text {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .team {
+        margin-top: 190px;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__links-about,
+    .footer__links-support,
+    .footer__links-legal {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer__info {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 444px) {
+    .answer-2-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .question-2-bg {
+        height: 830px;
+    }
+
+    .question-3-bg {
+        height: 900px;
+    }
+
+    .faq-bg {
+        height: 150px;
+    }
+
+    .footer__links {
+        width: 100%;
+    }
+
+    .btn-get {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .btn-get-answer {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 20px;
+    }
+
+    .buy__block span {
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .btn-get-answer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .btn-get span {
+        display: inline-block;
+        margin-top: 20px;
+    }
+}

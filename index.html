@@ -12,6 +12,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <!-- Header -->
@@ -68,16 +69,18 @@
                 <img src="images/banner/preview-video.png" alt="video">
                 <div class="banner__video-btn-play"></div>
 
-                 <iframe class="banner__video-player"
-                         width="920" height="518" src="https://www.youtube.com/embed/GncgmDhCu8Y?;autoplay=1"
-                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                         allowfullscreen>
-                 </iframe>
+                 <div class="banner__video-player">
+                     <iframe src="https://www.youtube.com/embed/GncgmDhCu8Y?;autoplay=1"
+                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen>
+                     </iframe>
+                 </div>
+                 <!-- /.banner__video-player -->
              </div>
              <!-- /.banner__video -->
 
             <div class="banner__info">
-                <a href="#!" class="btn-get">Get my ticket - just $1</a>
+                <a href="#!" class="btn-get">Get my ticket - <span>just $1</span></a>
                 <span>Everything eCom Summit - 100% Virtual Online Training</span>
                 <span>(October 17th) Starting 8:00 AM (EDT)</span>
             </div>
@@ -449,8 +452,11 @@
                         Most people will attend and do nothing. We WANT YOU to attend, take notes, and most importantly we
                         want you to implement the same day to see instant results!
                     </span>
-                    
-                    <img class="answer-3-img" src="images/answer-3-img-1.png" alt="answer image">
+
+                    <div class="answer-3-img">
+                        <img src="images/answer-3-img-1.png" alt="answer image">
+                    </div>
+                    <!-- /.answer-3-img -->
 
                     <div class="answer-3__content">
                         <div class="answer-3__content-desc">
@@ -528,7 +534,11 @@
 
                         <span>*Attend From Your Computer*</span>
 
-                        <img class="buy__block-img-1" src="images/buy-block/buy-block-img-1.png" alt="screens">
+                        <div class="buy__block-img-1">
+                            <img src="images/buy-block/buy-block-img-1.png" alt="screens">
+
+                        </div>
+                        <!-- /.buy__block-img-1 -->
                     </div>
                     <!-- /.buy__block -->
                 </div>
@@ -664,7 +674,10 @@
                 <div class="section-bg proof-bg"></div>
                 <section class="proof">
                     <div class="container__section">
-                        <img class="proof-img" src="images/proof-img.png" alt="screens">
+                        <div class="proof-img">
+                            <img src="images/proof-img.png" alt="screens">
+                        </div>
+                        <!-- /.proof-img -->
                     </div>
                     <!-- /.container__section -->
                 </section>

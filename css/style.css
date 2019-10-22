@@ -221,6 +221,18 @@ h1 {
 
 .banner__video-player {
     display: none;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__video-player iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .banner__info {
@@ -386,6 +398,7 @@ h1 {
 
 .question-1__content img {
     margin-top: 55px;
+    width: 100%;
 }
 
 .question-1__content span {
@@ -409,9 +422,9 @@ h1 {
     display: inline-block;
     margin-top: -75px;
     margin-bottom: 35px;
-    width: 600px;
-    height: 184px;
-    padding: 40px 49px 0 49px;
+    width: 100%;
+    /*height: 184px;*/
+    padding: 20px 49px 10px 49px;
     font-size: 26px;
     font-weight: 800;
     line-height: 35px;
@@ -505,7 +518,7 @@ h1 {
 
 .answer-2-title {
     margin-top: -50px;
-    padding: 42px 60px 0 60px;
+    padding: 20px 60px 10px 60px;
 }
 
 .answer-2__content {
@@ -514,7 +527,8 @@ h1 {
 
 .answer-2__img-inner {
     margin-top: 27px;
-    width: 600px;
+    /*width: 600px;*/
+
 }
 
 .answer-2__img-inner img {
@@ -644,13 +658,11 @@ h1 {
 
 .answer-3-title {
     margin-top: -55px;
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 10px 20px;
 }
 
-.answer-3-img {
-    width: 633px;
-    margin-left: -17px;
-    margin-bottom: 20px;
+.answer-3-img img {
+    width: 100%;
 }
 
 .answer-3__content {
@@ -746,10 +758,8 @@ h1 {
     line-height: 50px;
 }
 
-.buy__block-img-1 {
-    width: 700px;
-    margin-left: -50px;
-    margin-bottom: -5px;
+.buy__block-img-1 img {
+    width: 100%;
 }
 
 .buy__block-img-2 {
@@ -820,17 +830,15 @@ h1 {
 	Proof
    ------------------------------------------------- */
 .proof-bg {
-    height: 801px;
+    height: 680px;
 }
 
 .proof {
     position: relative;
 }
 
-.proof-img {
-    width: 700px;
-    margin-top: 10px;
-    margin-left: -50px;
+.proof-img img {
+    width: 100%;
 }
 
 /* -------------------------------------------------
@@ -911,6 +919,7 @@ h1 {
 footer {
     background-color: black;
     padding-bottom: 45px;
+    position: relative;
 }
 
 .footer__content {
