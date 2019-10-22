@@ -315,6 +315,11 @@
         display: inline-block;
         margin-top: 15px;
     }
+
+    .btn-sticky {
+        display: block;
+    }
+
 }
 
 @media (max-width: 375px) {
