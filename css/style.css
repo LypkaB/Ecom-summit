@@ -1084,9 +1084,10 @@ footer {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 6px;
-    padding-top: 19px;
+    padding-top: 5px;
     font-size: 16px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .btn-close {
@@ -1109,10 +1110,8 @@ footer {
     background-color: #83ba3f;
     outline: none;
     cursor: pointer;
-
     position: fixed;
     bottom: 0;
-
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
