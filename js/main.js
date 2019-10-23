@@ -6,7 +6,7 @@ $(function () {
     });
 
     /*<----- Pop-up window ----->*/
-    $('.header__list li:last-child, .btn-get, .sidebar a').on('click', function () {
+    $('.header__list li:last-child, .btn-get, .sidebar a, .btn-sticky').on('click', function () {
         $('.overlay').show();
     });
 

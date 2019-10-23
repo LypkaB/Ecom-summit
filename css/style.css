@@ -286,7 +286,8 @@ h1 {
     position: absolute;
 }
 
-.btn-get a {
+.btn-get a,
+.btn-popup {
     display: block;
     width: 100%;
     margin-top: 30px;
@@ -309,7 +310,6 @@ h1 {
    ------------------------------------------------- */
 .team {
     margin-top: 3%;
-    /*margin-bottom: 67px;*/
 }
 
 .date__info {
@@ -627,7 +627,7 @@ h1 {
    ------------------------------------------------- */
 .results-bg,
 .proof-bg {
-    height: 1200px;
+    height: 1300px;
     background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
 }
 
@@ -708,8 +708,6 @@ h1 {
     font-weight: 500;
     line-height: 36px;
 }
-
-
 
 .buy__block-img-second {
     width: 286px;
@@ -1026,7 +1024,7 @@ footer {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 3;
+    z-index: 10;
     background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -1095,7 +1093,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 6px;
-    padding-top: 5px;
+    padding-top: 19px;
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
