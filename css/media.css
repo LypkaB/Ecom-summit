@@ -393,6 +393,10 @@
     .question-fifth-bg {
         height: 190px;
     }
+
+    .btn-sticky {
+        display: block;
+    }
 }
 
 @media (max-width: 383px) {
