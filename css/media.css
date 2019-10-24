@@ -1,3 +1,420 @@
+@media (min-width: 1920px) {
+    .container {
+        max-width: 60%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .header__list ul li a,
+    .date__info span:last-child,
+    .team__block-item span:nth-child(3),
+    .sidebar span:nth-child(4),
+    .sidebar span:nth-child(2),
+    .sidebar a,
+    .answer-first__text li,
+    .answer-first__info p,
+    .answer-third-item__content span,
+    .answer-third__block-question span,
+    .answer-third__content-desc span + span,
+    .answer-fourth__text li, .answer-fifth__text li,
+    .faq-answer,
+    .footer-text,
+    .footer-link {
+        font-size: 20px;
+    }
+
+    .info__content span,
+    .question-second__text p,
+    .buy__block > span {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 62px;
+        line-height: 100%;
+    }
+
+    .banner h3,
+    .answer-third__block-question span:nth-child(2),
+    .answer-third__content-desc span:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .btn-get a,
+    .answer-second__content span:nth-child(5) {
+        font-size: 40px;
+    }
+
+    .date__info span:first-child,
+    .results span {
+        font-size: 25px;
+    }
+
+    .team__block-item {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .team-member-img {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .team__block-item span {
+        width: 275px;
+    }
+
+    .team__block-item span:nth-child(2) {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .team-skill-img {
+        width: 220px;
+    }
+
+    .sidebar {
+        width: 360px;
+        height: 602px;
+    }
+
+    .sidebar span:nth-child(2) {
+        top: 303px;
+    }
+
+    .sidebar span:nth-child(3) {
+        font-size: 27px;
+    }
+
+    .container__section {
+        width: 95%;
+    }
+
+    .about__title span {
+        width: 50%;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .about__text p,
+    .answer-first__text p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .question__title span,
+    .faq-text {
+        font-size: 40px;
+    }
+
+    .question-first__content span,
+    .answer-second__content span:nth-child(4),
+    .answer-third-item-title span {
+        font-size: 25px;
+    }
+
+    .question-first-bg {
+        height: 855px;
+    }
+
+    .answer-first__img {
+        width: 180px;
+    }
+
+    .answer-third-item-title {
+        height: 70px;
+    }
+
+    .answer-third__block-question span {
+        margin-bottom: 10px;
+    }
+
+    .answer-third-item__content span {
+        width: 70%;
+    }
+
+    .answer-third__block-question {
+        height: 200px;
+    }
+
+    .answer-third__block-question span:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .answer-fourth__text span, .answer-fifth__text span,
+    .faq-question {
+        font-size: 24px;
+    }
+
+    .faq-answer {
+        line-height: 35px;
+    }
+
+    .buy__block-img-second {
+        width: 400px;
+    }
+
+    .footer__desc {
+        width: 50%;
+    }
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer__info span, .footer__info span:nth-child(5) a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .header__list ul li a,
+    .date__info span:last-child,
+    .team__block-item span:nth-child(3),
+    .sidebar span:nth-child(4),
+    .sidebar span:nth-child(2),
+    .sidebar a,
+    .answer-first__text li,
+    .answer-first__info p,
+    .answer-third-item__content span,
+    .answer-third__block-question span,
+    .answer-third__content-desc span + span,
+    .answer-fourth__text li, .answer-fifth__text li,
+    .faq-answer,
+    .footer-text,
+    .footer-link {
+        font-size: 30px;
+    }
+
+    .info__content span,
+    .question-second__text p,
+    .buy__block > span {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .banner h3,
+    .answer-third__block-question span:nth-child(2),
+    .answer-third__content-desc span:nth-child(1) {
+        font-size: 40px;
+    }
+
+    .date__info span:first-child,
+    .results span {
+        font-size: 30px;
+    }
+
+    .team__block-item {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .team-member-img {
+        width: 250px;
+        margin-bottom: 40px;
+    }
+
+    .team__block-item span {
+        width: 370px;
+    }
+
+    .team__block-item span:nth-child(2) {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .team__block-item span:nth-child(3),
+    .answer-first__text li,
+    .answer-first__info p,
+    .question-second__text p,
+    .answer-third__block-question span,
+    .answer-third__content-desc span + span,
+    .answer-fourth__text span,
+    .answer-fifth__text span,
+    .faq-question,
+    .faq-answer,
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        line-height: 50px;
+    }
+
+    .team__block .team__block-item:first-child span:nth-child(3),
+    .team__block .team__block-item:last-child span:nth-child(3) {
+        padding-top: 30px;
+    }
+
+    .team-skill-img {
+        width: 290px;
+    }
+
+    .team__block .team__block-item:first-child .team-skill-img,
+    .team__block .team__block-item:last-child .team-skill-img {
+        padding-top: 50px;
+    }
+
+    .sidebar {
+        width: 485px;
+        height: 840px;
+    }
+
+    .sidebar span:nth-child(2) {
+        top: 411px;
+    }
+
+    .sidebar span:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .sidebar span:nth-child(4),
+    .answer-third-item__content span,
+    .footer-text {
+        line-height: 40px;
+    }
+
+    .about__title span {
+        width: 50%;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .about__title-img {
+        width: 475px;
+    }
+
+    .about__text p,
+    .answer-first__text p {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .question__title span,
+    .faq-text {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .question__title h2 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .question-first__content span,
+    .answer-second__content span:nth-child(4),
+    .answer-third-item-title span {
+        font-size: 30px;
+    }
+
+    .question-first-bg {
+        height: 1010px;
+    }
+
+    .answer-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .answer-first__img {
+        width: 230px;
+    }
+
+    .question-second-bg {
+        height: 920px;
+    }
+
+    .answer-second-title {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    .answer-second__content span:nth-child(5),
+    .buy__block + div span {
+        font-size: 45px;
+    }
+
+    .results-bg {
+        height: 1380px;
+    }
+
+    .question-third-bg {
+        height: 1050px;
+    }
+
+    .answer-third-title {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .answer-third__block-item:nth-child(5) .answer-third-item-title,
+    .answer-third__block-item:nth-child(7) .answer-third-item-title {
+        height: 100%;
+    }
+
+    .answer-third__block-question {
+        height: 200px;
+    }
+
+    .answer-third__block-question span:nth-child(3) {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .question-fourth-bg,
+    .question-fifth-bg {
+        height: 270px;
+    }
+
+    .answer-fourth__text span, .answer-fifth__text span,
+    .faq-question {
+        font-size: 30px;
+    }
+
+    .answer-fifth__text li {
+        line-height: 45px;
+    }
+
+    .faq-bg {
+        height: 200px;
+    }
+
+    .faq {
+        margin-top: 150px;
+    }
+
+    .faq-text {
+        margin-top: 70px;
+    }
+
+    .buy__block-img-second {
+        width: 600px;
+    }
+
+    .proof-bg {
+        height: 1140px;
+    }
+
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .footer__links {
+        width: 50%;
+    }
+
+    .footer__info {
+        padding: 0;
+    }
+
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        font-size: 25px;
+    }
+}
+
 @media (max-width: 960px) {
     .container,
     .container__section {
