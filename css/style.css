@@ -670,6 +670,102 @@ h1 {
     padding: 20px 20px 10px 20px;
 }
 
+.answer-third__block-item {
+    margin-bottom: 30px;
+}
+
+.item-title {
+    height: 60px;
+    padding-top: 20px;
+
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.09);
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #fdad00;
+    background-color: #fdad00;
+    text-align: center;
+}
+
+.item-title span {
+    font-size: 20px;
+    font-weight: 800;
+
+    /*line-height: 50px;*/
+}
+
+.item__content {
+    padding: 20px 30px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.09);
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #fdad00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.item__content span {
+    /*padding: 0 20px;*/
+    /*padding-left: 10px;*/
+    padding-right: 40px;
+    line-height: 27px;
+    color: #565656;
+}
+
+.answer-third__block-question {
+    height: 184px;
+    margin-bottom: 30px;
+    padding: 15px 30px 0 35px;
+    border-radius: 10px;
+    background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
+}
+
+.answer-third__block-question span {
+    display: block;
+    font-weight: 800;
+    line-height: 35px;
+    color: #fdad00;
+}
+
+.answer-third__block-question span:nth-child(2) {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.answer-third__block-question span:nth-child(3) {
+    font-size: 26px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(2) .item__content span {
+    padding-right: 70px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(3) .item__content span {
+    padding-right: 60px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(4) .item__content span {
+    padding-right: 40px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(5) .item-title,
+.answer-third__block .answer-third__block-item:nth-child(7) .item-title {
+    padding: 10px 40px 0 40px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(5) .item__content span {
+    padding-right: 66px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(10) .item__content span {
+    padding-right: 70px;
+}
+
+.answer-third__block .answer-third__block-item:nth-child(11) .item__content span {
+    padding-right: 50px;
+}
+
 .answer-third__content {
     text-align: center;
 }
