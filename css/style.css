@@ -366,8 +366,8 @@ h1 {
     margin-bottom: 35px;
 }
 
-.team__block .team__block-item:first-child .team-skill-img,
-.team__block .team__block-item:last-child .team-skill-img {
+.team__block-item:nth-child(1) .team-skill-img,
+.team__block-item:nth-child(3) .team-skill-img {
     padding-top: 20px;
 }
 
@@ -458,7 +458,7 @@ h1 {
 }
 
 .question__title span,
-.faq-text {
+.faq-title-text {
     display: inline-block;
     margin-top: 70px;
     font-size: 30px;
@@ -547,6 +547,10 @@ h1 {
     margin-bottom: 45px;
     font-weight: 800;
     line-height: 30px;
+}
+
+.answer-first__info p:nth-child(3) {
+    font-weight: 400;
 }
 
 .answer-first__info-screens {
@@ -857,7 +861,7 @@ h1 {
     padding-bottom: 0;
 }
 
-.faq-text {
+.faq-title-text {
     margin-top: 30px;
 }
 
@@ -952,7 +956,7 @@ h1 {
 }
 
 .sidebar span:nth-child(2) {
-    width: 99.5%;
+    width: 99.3%;
     padding-top: 10px;
     padding-bottom: 5px;
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.22);
