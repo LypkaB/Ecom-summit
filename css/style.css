@@ -287,6 +287,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
+    border: none;
 }
 
 .btn-get {
@@ -1170,6 +1171,7 @@ footer {
     padding-top: 19px;
     font-size: 16px;
     letter-spacing: 1px;
+    outline: none;
     cursor: pointer;
 }
 
