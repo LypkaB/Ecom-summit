@@ -3,7 +3,9 @@
    ------------------------------------------------- */
 @font-face {
     font-family: 'AvenirLTStd';
-    src: url('../font/AvenirLTStd-Roman.otf') format('opentype');
+    src: url('../font/AvenirLTStd-Roman.otf') format('opentype'),
+    url('/font/AvenirLTStd-Roman.woff') format('woff'),
+    url('/font/AvenirLTStd-Roman.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -11,7 +13,9 @@
 
 @font-face {
     font-family: 'AvenirLTStd';
-    src: url('../font/AvenirLTStd-Medium.otf') format('opentype');
+    src: url('../font/AvenirLTStd-Medium.otf') format('opentype'),
+    url('/font/AvenirLTStd-Medium.woff') format('woff'),
+    url('/font/AvenirLTStd-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -19,7 +23,9 @@
 
 @font-face {
     font-family: 'AvenirLTStd';
-    src: url('../font/AvenirLTStd-Heavy.otf') format('opentype');
+    src: url('../font/AvenirLTStd-Heavy.otf') format('opentype'),
+    url('/font/AvenirLTStd-Heavy.woff') format('woff'),
+    url('/font/AvenirLTStd-Heavy.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -27,7 +33,9 @@
 
 @font-face {
     font-family: 'AvenirLTStd';
-    src: url('../font/AvenirLTStd-Black.otf') format('opentype');
+    src: url('../font/AvenirLTStd-Black.otf') format('opentype'),
+    url('/font/AvenirLTStd-Black.woff') format('woff'),
+    url('/font/AvenirLTStd-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -64,6 +72,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 920px;
     margin: 0 auto;
@@ -80,10 +92,6 @@ a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-}
-
-.img {
-    width: 100%;
 }
 
 /* -------------------------------------------------
@@ -543,6 +551,10 @@ h1 {
     left: 0;
 }
 
+.answer-fourth__text li::before {
+    margin-top: 13px;
+}
+
 .answer-first__info p {
     margin-bottom: 45px;
     font-weight: 800;
@@ -713,10 +725,6 @@ h1 {
     width: 332px;
     line-height: 27px;
     color: #565656;
-}
-
-.answer-third-item__content img {
-    max-width: 100%;
 }
 
 .answer-third__block-question {
@@ -920,10 +928,6 @@ h1 {
     position: relative;
 }
 
-.proof-img img {
-    width: 100%;
-}
-
 /* -------------------------------------------------
 	Sidebar
    ------------------------------------------------- */
@@ -945,10 +949,6 @@ h1 {
     position: sticky;
     top: 100px;
     text-align: center;
-}
-
-.sidebar img {
-    width: 100%;
 }
 
 .sidebar span {
@@ -1142,10 +1142,6 @@ footer {
 
 .popup-img {
     margin-bottom: 37px;
-}
-
-.popup-img img {
-    width: 100%
 }
 
 .popup-form input {

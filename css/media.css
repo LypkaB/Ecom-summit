@@ -1224,6 +1224,10 @@
         margin-bottom: 60px;
     }
 
+    .btn-get-answer a span {
+        border-bottom: 4px solid white;
+    }
+
     .buy__block > span {
         font-size: 38px;
     }
@@ -2196,6 +2200,10 @@
 
     .buy__block > span {
         font-size: 78px;
+    }
+
+    .btn-get-answer a span {
+        border-bottom: 6px solid white;
     }
 
     .question-fourth-bg {
