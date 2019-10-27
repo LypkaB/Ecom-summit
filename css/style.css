@@ -1251,6 +1251,7 @@ footer {
    ------------------------------------------------- */
 .offer {
     padding-top: 40px;
+    padding-bottom: 27%;
     background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
 }
 
@@ -1318,4 +1319,8 @@ footer {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+}
+
+.team-1 {
+    margin-top: -23%;
 }

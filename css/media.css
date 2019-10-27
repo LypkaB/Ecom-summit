@@ -651,6 +651,7 @@
 
     .team__block-item {
         padding: 0 30px;
+        border-radius: 15px;
     }
 
     .team-member-img {
