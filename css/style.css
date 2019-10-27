@@ -1207,11 +1207,32 @@ footer {
 	Page-1
    ------------------------------------------------- */
 /* -------------------------------------------------
-	Header
+	Header-1
    ------------------------------------------------- */
 .header-1 {
     padding: 7px 0;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: center;
+}
+
+/* -------------------------------------------------
+	Info-1
+   ------------------------------------------------- */
+.info-1 .info__content {
+    padding: 19px 0;
+}
+
+.info-1 .info__content span:nth-child(1) {
+    display: block;
+}
+
+.info-1 .info__content span:nth-child(3)::before,
+.info-1 .info__content span:nth-child(3)::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    margin: 0 15px 3px;
+    background-color: #fdad00;
 }
