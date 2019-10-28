@@ -1251,10 +1251,14 @@ footer {
 /* -------------------------------------------------
 	Tickets
    ------------------------------------------------- */
+.tickets,
+.product {
+    background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
+}
+
 .tickets {
     padding-top: 40px;
     padding-bottom: 27%;
-    background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
 }
 
 .tickets__desc {
@@ -1413,3 +1417,39 @@ footer {
     line-height: 30px;
     color: #371a84;
 }
+
+/* -------------------------------------------------
+	Product
+   ------------------------------------------------- */
+/*.product__block {*/
+    /*padding-top: 90px;*/
+/*}*/
+
+/*.product__block-title {*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 15px;*/
+
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: justify;*/
+    /*-ms-flex-pack: justify;*/
+    /*justify-content: space-between;*/
+
+    /*box-shadow: 0 0 24px rgba(0, 0, 0, 0.09);*/
+    /*border-radius: 4px 4px 0 0;*/
+    /*background-color: #fdad00;*/
+/*}*/
+
+/*.product__block-title span {*/
+    /*font-size: 20px;*/
+    /*font-weight: 800;*/
+/*}*/
+
+/*.product__block-title span:first-child {*/
+    /*margin-left: 30px;*/
+/*}*/
+
+/*.product__block-title span:last-child {*/
+    /*margin-right: 160px;*/
+/*}*/
