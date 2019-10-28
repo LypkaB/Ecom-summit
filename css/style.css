@@ -589,7 +589,7 @@ h1 {
 	Question #2
    ------------------------------------------------- */
 .question-second-bg {
-    height: 620px;
+    height: 670px;
 }
 
 .question-second__text p {
@@ -607,35 +607,101 @@ h1 {
 }
 
 .answer-second-title {
-    padding: 20px 60px 10px 60px;
+    font-size: 28px;
 }
 
-.answer-second__content {
-    text-align: center;
-}
-
-.answer-second__img {
-    margin-bottom: 27px;
-}
-
-.answer-second__img img {
-    -webkit-box-shadow: 0 0 64px rgba(0, 0, 0, 0.08);
+.answer-second__block-item {
+    margin-bottom: 30px;
+    border-radius: 4px;
     box-shadow: 0 0 64px rgba(0, 0, 0, 0.08);
     border: 2px solid #dde6d7;
 }
 
-.answer-second__content span {
-    display: inline-block;
+.answer-second__block-item-title {
+    padding: 20px 20px 10px 20px;
+    background-color: #dde6d6;
 }
 
-.answer-second__content span:nth-child(4) {
+.answer-second-img {
+    float: right;
+    width: 100px;
+    margin-left: 90px;
+    border: 10px solid #edf3ea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.answer-second-img img {
+    margin-bottom: -5px;
+}
+
+.answer-second__block-item-title > span {
+    display: block;
+}
+
+.answer-second__block-item-title > span:nth-child(2) {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #494a49;
+}
+
+.answer-second__block-item-title > span:nth-child(3) {
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #494a49;
+}
+
+.answer-second__block-item-title > span:nth-child(3) span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.answer-second__block-item-title > span:nth-child(4) {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #1d5585;
+}
+
+.answer-second__block-item-content {
+    padding: 25px 20px 30px 15px;
+    background-color: #f0fae9;
+    text-align: justify;
+}
+
+.answer-second__block-item-content > span {
+    color: #2040fd;
+    text-transform: uppercase;
+}
+
+.answer-second__block-item-content p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #484847;
+}
+
+.answer-second__block-item-content p span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.answer-second__content > span {
+    display: block;
+    text-align: center;
+}
+
+.answer-second__content > span:nth-child(2) {
     margin-bottom: 14px;
     font-size: 20px;
     font-weight: 800;
     line-height: 49px;
 }
 
-.answer-second__content span:nth-child(5) {
+.answer-second__content > span:nth-child(3) {
     font-size: 30px;
     font-weight: 800;
     line-height: 50px;
@@ -1270,7 +1336,8 @@ footer {
 }
 
 .tickets__desc::after,
-.offer__desc::after {
+.offer__desc::after,
+.answer-second__block-item-title::after {
     content: '';
     clear: both;
     display: block;
@@ -1452,4 +1519,26 @@ footer {
 
 /*.product__block-title span:last-child {*/
     /*margin-right: 160px;*/
+/*}*/
+
+/*input[type="checkbox"] {*/
+    /*display: none;*/
+/*}*/
+
+/*label::after {*/
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*!*width: 25px;*!*/
+    /*!*height: 25px;*!*/
+    /*!*vertical-align: middle;*!*/
+    /*!*margin-left: -10px;*!*/
+    /*!*margin-right: 10px;*!*/
+    /*!*transition: 0.2s;*!*/
+    /*!*border-radius: 50%;*!*/
+    /*!*border: 1px solid red;*!*/
+
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*border: 1px solid black;*/
+    /*background-color: black;*/
 /*}*/
