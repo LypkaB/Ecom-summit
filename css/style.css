@@ -1672,6 +1672,7 @@ footer {
 .page-second-info {
     background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
     padding-top: 35px;
+    padding-bottom: 30%;
 }
 
 .page-second-info__desc {
@@ -1740,4 +1741,11 @@ footer {
     font-weight: 800;
     line-height: 40px;
     color: white;
+}
+
+/* -------------------------------------------------
+    Page-second: Video
+   ------------------------------------------------- */
+.page-second-video {
+    margin-top: -30%;
 }
