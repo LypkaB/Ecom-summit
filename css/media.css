@@ -1,3 +1,9 @@
+@media (max-width: 1190px) {
+    .product__block-img {
+        display: none;
+    }
+}
+
 @media (max-width: 960px) {
     .container,
     .container__section {
@@ -79,17 +85,44 @@
     .popup {
         width: 95%;
     }
+
+    .offer__title span {
+        padding: 2.5% 0;
+    }
+
+    .security div {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 880px) {
     .team__block-item {
         padding: 0 10px;
     }
+
+    .offer__desc ul li:last-child {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 856px) {
     .answer-second__block-item:last-child .answer-second-img {
         margin-top: 15px;
+    }
+}
+
+@media (max-width: 845px) {
+    .offer__title {
+        width: 100%;
+    }
+
+    .offer__title span {
+        padding: 1.5% 0;
+    }
+
+    .offer__title span {
+        font-size: 20px;
     }
 }
 
@@ -116,6 +149,65 @@
 
     .date__info span {
         display: block;
+    }
+
+    .product__block {
+        padding-top: 5%;
+    }
+
+    .product__block-title {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: center;
+    }
+
+    .product__block-title span:last-child {
+        display: none;
+    }
+
+    .product__block-title span:first-child {
+        margin-left: 0;
+    }
+
+    .product__block-check-first,
+    .product__block-check-second,
+    .product__block-check-total,
+    .product__block-check-first-inner {
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .product__block-check-first span,
+    .product__block-check-second > span {
+        margin-bottom: 3%;
+    }
+
+    .product__block-check-second > span {
+        width: 100%;
+    }
+
+    .product__block-check-first-inner span {
+        margin-right: 0;
+        margin-bottom: 70%;
+    }
+
+    .product__block-check-second {
+        text-align: center;
+    }
+
+    .product__block-check-second-inner span {
+        display: block;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .product__block-check-total span {
+        margin-bottom: 2%;
+    }
+
+    .product__block-check-total span:last-child {
+        margin-right: 0;
     }
 }
 
@@ -161,6 +253,33 @@
     .team__block .team__block-item:first-child .team-skill-img,
     .team__block .team__block-item:last-child .team-skill-img {
         padding-top: 0;
+    }
+
+    .page-first-team {
+        margin-bottom: 0;
+    }
+
+    .offer__title {
+        padding: 0 15%;
+    }
+
+    .offer__title span {
+        padding: 1% 0;
+    }
+
+    .offer__title span {
+        font-size: 20px;
+    }
+
+    .offer__desc > span,
+    .offer__desc > p:nth-child(3) {
+        margin-bottom: 3%;
+    }
+
+    .offer__desc-img {
+        float: none;
+        width: 30%;
+        margin: 0 auto;
     }
 }
 
@@ -229,6 +348,16 @@
     .answer-third__block-item,
     .answer-third__block-question {
         width: 100%;
+    }
+
+    .tickets-img {
+        width: 50%;
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .tickets__desc > span:nth-child(2) {
+        margin-bottom: 20px;
     }
 }
 
@@ -368,6 +497,10 @@
     .answer-third__block-item:nth-child(2) .answer-third-item-title {
         padding-top: 10px;
     }
+
+    .tickets__desc > a {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 571px) {
@@ -398,6 +531,15 @@
 @media (max-width: 540px) {
     .question__title-fifth span {
         margin-top: 45px;
+    }
+
+    .page-first-info .info__content span {
+        display: block;
+    }
+
+    .page-first-info .info__content span:nth-child(3)::before,
+    .page-first-info .info__content span:nth-child(3)::after {
+        display: none;
     }
 }
 
@@ -447,6 +589,10 @@
     .footer__info {
         padding: 0 20px;
         text-align: center;
+    }
+
+    .page-first-team {
+        margin-top: -15%;
     }
 }
 
@@ -593,6 +739,38 @@
     .btn-sticky {
         display: block;
     }
+
+    .tickets__desc > span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .tickets__desc > span:nth-child(5) {
+        font-size: 16px;
+    }
+
+    .page-first-team {
+        margin-top: -15%;
+    }
+
+    .offer__desc li::before {
+        width: 20px;
+        height: 20px;
+        margin-top: 2%;
+    }
+
+    .offer__desc ul li {
+        margin-left: 8%;
+        margin-bottom: 5%;
+        line-height: 200%;
+    }
+
+    .product .btn-get a {
+        font-size: 20px;
+    }
+
+    .security {
+        margin-bottom: 5%;
+    }
 }
 
 @media (max-width: 383px) {
@@ -626,11 +804,19 @@
     .footer__desc {
         width: 100%;
     }
+
+    .tickets__desc > a {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 359px) {
     .question-fifth-bg {
         height: 230px;
+    }
+
+    .page-first-info .info__content span:nth-child(1) {
+        font-size: 16px;
     }
 }
 
