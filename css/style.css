@@ -1278,7 +1278,7 @@ footer {
 /* -------------------------------------------------
 	Page-first: Header
    ------------------------------------------------- */
-.header-1 {
+.page-first-header {
     padding: 7px 0;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -1288,25 +1288,25 @@ footer {
 /* -------------------------------------------------
 	Page-first: Info
    ------------------------------------------------- */
-.info-1 .info__content {
+.page-first-info .info__content {
     padding: 19px 0;
 }
 
-.info-1 .info__content span {
+.page-first-info .info__content span {
     font-size: 16px;
     font-weight: 500;
 }
 
-.info-1 .info__content span:nth-child(1) {
+.page-first-info .info__content span:nth-child(1) {
     font-size: 20px;
 }
 
-.info-1 .info__content span:nth-child(1) {
+.page-first-info .info__content span:nth-child(1) {
     display: block;
 }
 
-.info-1 .info__content span:nth-child(3)::before,
-.info-1 .info__content span:nth-child(3)::after {
+.page-first-info .info__content span:nth-child(3)::before,
+.page-first-info .info__content span:nth-child(3)::after {
     content: '';
     display: inline-block;
     width: 25px;
@@ -1397,7 +1397,7 @@ footer {
     line-height: 30px;
 }
 
-.team-1 {
+.page-first-team {
     margin-top: -23%;
     margin-bottom: 60px;
 }
