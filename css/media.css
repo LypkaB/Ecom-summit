@@ -978,6 +978,164 @@
     .footer__info span:last-child a {
         font-size: 16px;
     }
+
+    .page-first-info .info__content span {
+        font-size: 27px;
+    }
+
+    .page-first-info .info__content span,
+    .page-first-info .info__content span:nth-child(1) {
+        line-height: 70px;
+    }
+
+    .page-first-info .info__content span:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .page-first-info .info__content span:nth-child(3)::before,
+    .page-first-info .info__content span:nth-child(3)::after {
+        width: 45px;
+    }
+
+    .tickets {
+        padding-bottom: 24%;
+    }
+
+    .tickets-img {
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    .tickets__desc > span:nth-child(2) {
+        margin-left: 45px;
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .tickets__desc > span:nth-child(2)::before {
+        margin-top: 11px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .tickets__desc > span:nth-child(3) {
+        margin-bottom: 40px;
+        font-size: 21px;
+    }
+
+    .tickets__desc > a {
+        font-size: 40px;
+    }
+
+    .tickets__desc > span:nth-child(5) {
+        margin-top: 40px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .page-first-team {
+        margin-top: -20%;
+    }
+
+    .offer__title {
+        margin-bottom: 34px;
+    }
+
+    .offer__title span {
+        padding: 32px 0;
+        font-size: 52px;
+    }
+
+    .offer__desc > span {
+        font-size: 26px;
+        line-height: 52px;
+    }
+
+    .offer__desc-img {
+        width: 22%;
+        margin-left: 62px;
+    }
+
+    .offer__desc > p:nth-child(3) {
+        margin-bottom: 70px;
+    }
+
+    .offer__desc > p:nth-child(3),
+    .offer__desc ul li {
+        font-size: 24px;
+    }
+
+    .offer__desc > p:nth-child(3),
+    .offer__desc ul li:last-child {
+        line-height: 44px;
+    }
+
+    .offer__desc > p:nth-child(4) {
+        margin-bottom: 40px;
+        font-size: 23px;
+        line-height: 42px;
+    }
+
+    .offer__desc ul li {
+        margin-bottom: 22px;
+        margin-left: 65px;
+    }
+
+    .offer__desc > a {
+        font-size: 22px;
+    }
+
+    .product__block-title span {
+        font-size: 28px;
+    }
+
+    .product__block-title span:first-child {
+        margin-left: 50px;
+    }
+
+    .product__block-title span:last-child {
+        margin-right: 190px;
+    }
+
+    .product__block-check-first,
+    .product__block-check-second,
+    .product__block-check-total {
+        padding: 35px 30px 25px 40px;
+    }
+
+    .product__block-check span {
+        font-size: 22px;
+    }
+
+    .product__block-check-first-inner span {
+        margin-right: 180px;
+    }
+
+    .product__block-check-second > span {
+        width: 680px;
+    }
+
+    .product__block-check-second-inner span {
+        line-height: 40px;
+    }
+
+    .product__block-check-second-inner span,
+    .product__block-img {
+        width: 200px;
+    }
+
+    .product__block-check-total span:last-child {
+        margin-right: 200px;
+    }
+
+    .product__block-img {
+        top: 135px;
+        right: -180px;
+    }
+
+    .security__container {
+        width: 20%;
+    }
 }
 
 @media (min-width: 2560px) {
@@ -1471,6 +1629,193 @@
 
     .btn-close {
         font-size: 32px;
+    }
+
+    .page-first-header {
+        padding: 30px 0;
+    }
+
+    .page-first-info .info__content span {
+        font-size: 39px;
+    }
+
+    .page-first-info .info__content span,
+    .page-first-info .info__content span:nth-child(1) {
+        line-height: 80px;
+    }
+
+    .page-first-info .info__content span:nth-child(1) {
+        font-size: 45px;
+    }
+
+    .tickets {
+        padding-top: 90px;
+        padding-bottom: 26%;
+    }
+
+    .tickets__desc {
+        padding: 45px 44px 54px 49px;
+        border-radius: 15px;
+    }
+
+    .tickets__desc > span:nth-child(2) {
+        margin-bottom: 60px;
+        font-size: 32px;
+        line-height: 60px;
+    }
+
+    .tickets__desc > span:nth-child(2)::before {
+        margin-top: 14px;
+        width: 33px;
+        height: 33px;
+    }
+
+    .tickets__desc > span:nth-child(3) {
+        margin-bottom: 50px;
+        font-size: 27px;
+    }
+
+    .tickets__desc > a {
+        font-size: 52px;
+    }
+
+    .tickets__desc > span:nth-child(5) {
+        margin-top: 50px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .page-first-team {
+        margin-top: -22%;
+    }
+
+    .offer,
+    .offer__desc ul {
+        margin-bottom: 80px;
+    }
+
+    .offer__title span {
+        padding: 52px 0;
+        font-size: 62px;
+    }
+
+    .offer__desc > span {
+        font-size: 33px;
+        line-height: 70px;
+    }
+
+    .offer__desc > p:nth-child(3) {
+        margin-bottom: 90px;
+        line-height: 60px;
+    }
+
+    .offer__desc > p:nth-child(3),
+    .offer__desc ul li {
+        font-size: 32px;
+    }
+
+    .offer__desc > p:nth-child(4) {
+        margin-bottom: 50px;
+        font-size: 31px;
+    }
+
+    .offer__desc > p:nth-child(4),
+    .offer__desc ul li:last-child {
+        line-height: 54px;
+    }
+
+    .offer__desc li::before {
+        margin-top: 5px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .offer__desc ul li {
+        margin-bottom: 42px;
+        margin-left: 84px;
+    }
+
+    .offer__desc > a {
+        font-size: 30px;
+    }
+
+    .product {
+        margin-bottom: 100px;
+        padding-bottom: 105px;
+    }
+
+    .product__block {
+        margin-bottom: 50px;
+        padding-top: 130px;
+    }
+
+    .product__block-title {
+        padding-top: 40px;
+        padding-bottom: 35px;
+        -webkit-border-radius: 15px 15px 0 0;
+        -moz-border-radius: 15px 15px 0 0;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .product__block-title span {
+        font-size: 38px;
+    }
+    .product__block-title span:first-child {
+        margin-left: 62px;
+    }
+
+    .product__block-title span:last-child {
+        margin-right: 265px;
+    }
+
+    .product__block-check-first,
+    .product__block-check-second,
+    .product__block-check-total {
+        padding: 55px 50px 45px 60px;
+    }
+
+    .product__block-check label::before {
+        width: 45px;
+        height: 45px;
+    }
+
+    .product__block-check span {
+        font-size: 32px;
+    }
+
+    .product__block-check-first-inner span {
+        margin-right: 250px;
+    }
+
+    .product__block-check-second > span {
+        width: 980px;
+        line-height: 55px;
+    }
+
+    .product__block-check-second-inner span {
+        width: 285px;
+        line-height: 58px;
+    }
+
+    .product__block-check-total {
+        -webkit-border-radius:  0 0 15px 15px;
+        -moz-border-radius:  0 0 15px 15px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .product__block-check-total span:last-child {
+        margin-right: 280px;
+    }
+
+    .product__block-img {
+        width: 300px;
+        top: 185px;
+        right: -260px;
+    }
+
+    .product .btn-get a {
+        padding-top: 60px;
+        padding-bottom: 55px;
     }
 }
 
@@ -2043,6 +2388,210 @@
     .btn-close {
         font-size: 56px;
     }
+
+    .page-first-header {
+        padding: 50px 0;
+    }
+
+    .page-first-info .info__content {
+        padding: 60px 0;
+    }
+
+    .page-first-info .info__content span {
+        font-size: 60px;
+    }
+
+    .page-first-info .info__content span,
+    .page-first-info .info__content span:nth-child(1) {
+        line-height: 130px;
+    }
+
+    .page-first-info .info__content span:nth-child(1) {
+        font-size: 76px;
+    }
+
+    .page-first-info .info__content span:nth-child(3)::before,
+    .page-first-info .info__content span:nth-child(3)::after {
+        width: 90px;
+        height: 5px;
+        margin: 0 30px 4px;
+    }
+
+    .tickets {
+        padding-top: 120px;
+    }
+
+    .tickets__desc {
+        padding: 90px 90px 100px 95px;
+        border-right: 20px;
+    }
+
+    .tickets-img {
+        margin-top: 45px;
+    }
+
+    .tickets__desc > span:nth-child(2) {
+        margin-left: 60px;
+        margin-bottom: 70px;
+        font-size: 51px;
+        line-height: 90px;
+    }
+
+    .tickets__desc > span:nth-child(2)::before {
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+        left: 60px;
+    }
+
+    .tickets__desc > span:nth-child(3) {
+        margin-bottom: 60px;
+        font-size: 42px;
+    }
+
+    .tickets__desc > a {
+        font-size: 82px;
+    }
+
+    .tickets__desc > span:nth-child(5) {
+        margin-top: 60px;
+        font-size: 48px;
+        line-height: 80px;
+    }
+
+    .offer {
+        margin-bottom: 120px;
+    }
+
+    .page-first-team,
+    .offer__desc > span,
+    .offer__desc > p:nth-child(4),
+    .offer__desc ul {
+        margin-bottom: 100px;
+    }
+
+    .offer__title {
+        margin-bottom: 66px;
+    }
+
+    .offer__title span {
+        padding: 92px 0;
+        font-size: 92px;
+    }
+
+    .offer__desc > span {
+        font-size: 53px;
+        line-height: 120px;
+    }
+
+    .offer__desc > p:nth-child(3) {
+        margin-bottom: 180px;
+        font-size: 52px;
+        line-height: 88px;
+    }
+
+    .offer__desc > p:nth-child(4) {
+        font-size: 49px;
+        line-height: 86px;
+    }
+
+    .offer__desc li::before {
+        margin-top: -2px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .offer__desc ul li:last-child {
+        line-height: 64px;
+    }
+
+    .offer__desc ul li {
+        font-size: 50px;
+        margin-bottom: 72px;
+        margin-left: 120px;
+    }
+
+    .offer__desc ul li:last-child {
+        line-height: 90px;
+    }
+
+    .offer__desc > a {
+        font-size: 42px;
+    }
+
+    .product {
+        margin-bottom: 5%;
+        padding-bottom: 130px;
+    }
+
+    .product__block {
+        margin-bottom: 90px;
+        padding-top: 170px;
+    }
+
+    .product__block-title {
+        padding-top: 50px;
+        padding-bottom: 45px;
+        -webkit-border-radius: 20px 20px 0 0;
+        -moz-border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .product__block-check-first,
+    .product__block-check-second,
+    .product__block-check-total {
+        padding: 75px 70px 65px 80px;
+    }
+
+    .product__block-title span {
+        font-size: 52px;
+    }
+
+    .product__block-title span:first-child {
+        margin-left: 80px;
+    }
+
+    .product__block-check label::before {
+        width: 60px;
+        height: 60px;
+    }
+
+    .product__block-check span {
+        font-size: 46px;
+    }
+
+    .product__block-check-first-inner span {
+        margin-right: 415px;
+    }
+
+    .product__block-check-second > span {
+        width: 1500px;
+        line-height: 75px;
+    }
+
+    .product__block-check-second-inner span {
+        width: 460px;
+        line-height: 80px;
+    }
+
+    .product__block-check-total span:last-child {
+        margin-right: 450px;
+    }
+
+    .product__block-img {
+        width: 400px;
+        top: 24%;
+        right: -14%;
+    }
+
+    .product .btn-get a {
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+
+    .security {
+        margin-bottom: 2%;
+    }
 }
 
 @media (min-width: 5120px) {
@@ -2488,6 +3037,172 @@
     .popup-form input,
     .popup-form input::placeholder {
         font-size: 80px;
+    }
+
+    .page-first-info .info__content span {
+        font-size: 75px;
+    }
+
+    .page-first-info .info__content span,
+    .page-first-info .info__content span:nth-child(1) {
+        line-height: 180px;
+    }
+
+    .page-first-info .info__content span:nth-child(1) {
+        font-size: 94px;
+    }
+
+    .page-first-info .info__content span:nth-child(3)::before,
+    .page-first-info .info__content span:nth-child(3)::after {
+        width: 120px;
+        margin: 0 30px 4px;
+    }
+
+    .tickets {
+        padding-top: 150px;
+    }
+
+    .tickets-img {
+        margin-top: 75px;
+    }
+
+    .tickets__desc > span:nth-child(2) {
+        margin-left: 75px;
+        font-size: 66px;
+        line-height: 120px;
+    }
+
+    .tickets__desc > span:nth-child(2)::before {
+        margin-top: 30px;
+    }
+
+    .tickets__desc > span:nth-child(3) {
+        margin-bottom: 70px;
+        font-size: 54px;
+    }
+
+    .tickets__desc > a {
+        font-size: 105px;
+    }
+
+    .tickets__desc > span:nth-child(5) {
+        margin-top: 70px;
+        font-size: 61px;
+        line-height: 105px;
+    }
+
+    .offer,
+    .page-first-team {
+        margin-bottom: 150px;
+    }
+
+    .offer__title,
+    .offer__desc ul li {
+        margin-bottom: 100px;
+    }
+
+    .offer__title span {
+        padding: 125px 0;
+        font-size: 130px;
+    }
+
+    .offer__desc > span {
+        margin-bottom: 120px;
+        font-size: 67px;
+    }
+
+    .offer__desc > span,
+    .offer__desc > p:nth-child(4),
+    .offer__desc ul li:last-child {
+        line-height: 120px;
+    }
+
+    .offer__desc > p:nth-child(3) {
+        margin-bottom: 200px;
+        font-size: 66px;
+        line-height: 116px;
+    }
+
+    .offer__desc > p:nth-child(4) {
+        font-size: 61px;
+    }
+
+    .offer__desc > p:nth-child(4),
+    .offer__desc ul {
+        margin-bottom: 120px;
+    }
+
+    .offer__desc li::before {
+        margin-top: -5px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .offer__desc ul li {
+        margin-left: 160px;
+    }
+
+    .offer__desc ul li,
+    .offer__desc > a {
+        font-size: 62px;
+    }
+
+    .product__block {
+        margin-bottom: 5%;
+        padding-top: 8%;
+    }
+
+    .product__block-title {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    .product__block-check-first,
+    .product__block-check-second,
+    .product__block-check-total {
+        padding: 95px 90px 85px 100px;
+    }
+
+    .product__block-title span {
+        font-size: 80px;
+    }
+
+    .product__block-check label::before {
+        width: 80px;
+        height: 80px;
+    }
+
+    .product__block-check span {
+        font-size: 60px;
+    }
+
+    .product__block-check-first-inner span {
+        margin-right: 490px;
+    }
+
+    .product__block-check-second > span {
+        width: 67%;
+        line-height: 100px;
+    }
+
+    .product__block-check-total span:last-child {
+        margin-right: 555px;
+    }
+
+    .product__block-check-second-inner span {
+        width: 550px;
+        line-height: 110px;
+    }
+
+    .product__block-img {
+        width: 500px;
+        top: 24%;
+        right: -14%;
+    }
+
+    .product .btn-get a {
+        padding-top: 100px;
+        padding-bottom: 95px;
     }
 }
 
