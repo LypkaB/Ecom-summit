@@ -551,7 +551,7 @@ h1 {
     margin-top: 4px;
     width: 30px;
     height: 30px;
-    background-image: url('../images/answer-1/checkbox.svg');
+    background-image: url('../images/check-green.svg');
     position: absolute;
     left: 0;
 }
@@ -1365,7 +1365,7 @@ footer {
     content: '';
     width: 25px;
     height: 25px;
-    background: url('../images/check.svg') no-repeat;
+    background: url('../images/check-black.svg') no-repeat;
     background-size: contain;
     position: absolute;
     left: 28px;
@@ -1421,7 +1421,7 @@ footer {
     font-weight: 900;
     line-height: 36px;
     color: #c52a2a;
-    background: url('../images/offer/offer-title-bg.png') no-repeat center;
+    background: url('../images/tape-bg.png') no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1636,6 +1636,7 @@ footer {
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(243deg, #1a843d 0%, #60449a 100%);
     text-align: center;
+    position: relative;
 }
 
 .page-second-offer span {
@@ -1663,4 +1664,80 @@ footer {
     position: absolute;
     top: 13px;
     left: 13%;
+}
+
+/* -------------------------------------------------
+    Page-second: Info
+   ------------------------------------------------- */
+.page-second-info {
+    background-image: linear-gradient(225deg, #60449a 0%, #1a843d 100%);
+    padding-top: 35px;
+}
+
+.page-second-info__desc {
+    text-align: center;
+}
+
+.page-second-info__desc span {
+    display: block;
+}
+
+.page-second-info__desc span:first-child {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+    color: white;
+}
+
+.page-second-info__desc span:nth-child(2),
+.page-second-info__desc span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #f7b500;
+    position: relative;
+}
+
+.page-second-info__desc span:nth-child(2) {
+    margin-left: -35px;
+}
+
+.page-second-info__desc span:nth-child(2)::before,
+.page-second-info__desc span:nth-child(3)::before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-image: url('../images/check-green.svg');
+    position: absolute;
+    top: 6px;
+}
+
+.page-second-info__desc span:nth-child(2)::before {
+    left: 18%;
+}
+
+.page-second-info__desc span:nth-child(3)::before {
+    left: 15%;
+}
+
+.page-second-info__desc span:nth-child(4) {
+    display: block;
+    margin: 30px 0;
+    padding: 25px 0;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #c52a2a;
+    background: url('../images/tape-bg.png') no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.page-second-info__desc span:nth-child(5) {
+    margin-bottom: 35px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 40px;
+    color: white;
 }
