@@ -18,4 +18,13 @@ $(function () {
     $('.header__btn-menu').on('click', function() {
         $('.header__list').slideToggle();
     });
+
+    /*<----- Change link in checkbox ----->*/
+    $('#second-check').change(function() {
+        var href = $(this).prop('checked') ?
+            'https://google.com' :
+            'https://youtube.com';
+
+        $('.product .btn-get a').attr('href', href);
+    });
 });

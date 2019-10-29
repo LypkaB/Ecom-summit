@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/1920.css">
-    <link rel="stylesheet" href="css/2560.css">
-    <link rel="stylesheet" href="css/4096.css">
-    <link rel="stylesheet" href="css/5120.css">
 </head>
 <body>
     <!-- Header -->
@@ -54,7 +50,7 @@
         <div class="container">
             <div class="tickets__desc">
                 <div class="tickets-img">
-                    <img src="images/tickets/tickets-img-1.png" alt="tickets">
+                    <img src="images/tickets-img-1.png" alt="tickets">
                 </div>
                 <!-- /.tickets-img -->
 
@@ -184,33 +180,69 @@
     </section>
 
     <!-- Product -->
-    <!--<section class="product">-->
-        <!--<div class="container">-->
-            <!--<div class="product__block">-->
-                <!--<div class="product__block-title">-->
-                    <!--<span>Product</span>-->
-                    <!--<span>Price</span>-->
-                <!--</div>-->
-                <!--&lt;!&ndash; /.product__block-title &ndash;&gt;-->
+    <section class="product">
+        <div class="container product__container">
+            <div class="product__block">
+                <div class="product__block-title">
+                    <span>Product</span>
+                    <span>Price</span>
+                </div>
+                <!-- /.product__block-title -->
 
-                <!--&lt;!&ndash;<label for="first-check">Everything eCom Summit</label>&ndash;&gt;-->
-                <!--&lt;!&ndash;<input type="checkbox" id="first-check">&ndash;&gt;-->
+                <div class="product__block-check">
 
-                <!--&lt;!&ndash;<label for="first-check">Everything eCom Summit</label>&ndash;&gt;-->
-                <!--&lt;!&ndash;<input type="checkbox" id="first-check">&ndash;&gt;-->
+                    <div class="product__block-check-first">
+                        <span><b>Everything eCom Summit</b></span>
 
-            <!--</div>-->
-            <!--&lt;!&ndash; /.product__block &ndash;&gt;-->
-        <!--</div>-->
-        <!--&lt;!&ndash; /.container &ndash;&gt;-->
-    <!--</section>-->
+                        <div class="product__block-check-first-inner">
+                            <span>1$</span>
+                            <input type="checkbox" checked id="first-check">
+                            <label for="first-check"></label>
+                        </div>
+                        <!-- /.product__block-check-first-inner -->
+                    </div>
+                    <!-- /.product__block-check-first -->
 
-    <!-- Security -->
-    <!--<section class="security">-->
-        <!--<div class="container">-->
-            <!---->
-        <!--</div>-->
-        <!--&lt;!&ndash; /.container &ndash;&gt;-->
-    <!--</section>-->
+                    <div class="product__block-check-second">
+                        <span>
+                            <b>eCom Insider (Optional)</b> - First 14 days free, then $67 per month as long as I decide to
+                            remain a member
+                        </span>
+
+                        <div class="product__block-check-second-inner">
+                            <span>$0.00 For 21 Days Then $67/Month</span>
+                            <input type="checkbox" checked id="second-check">
+                            <label for="second-check"></label>
+                        </div>
+                        <!-- /.product__block-check-second-inner -->
+                    </div>
+                    <!-- /.product__block-check-second -->
+
+                    <div class="product__block-check-total">
+                        <span>Total</span>
+                        <span>$1</span>
+                    </div>
+                    <!-- /.product__block-check-total -->
+                </div>
+                <!-- /.product__block-check -->
+                
+                <div class="product__block-img">
+                    <img src="images/product-img-1.png" alt="">
+                </div>
+                <!-- /.product__block-img -->
+            </div>
+            <!-- /.product__block -->
+
+            <div class="btn-get">
+                <a target="_blank" href="https://www.google.com">Proceed to checkout</a>
+            </div>
+            <!-- /.btn-get -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
