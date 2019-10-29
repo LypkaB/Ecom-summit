@@ -1628,9 +1628,9 @@ footer {
 }
 
 /* -------------------------------------------------
-    Page-second: Offer
+    Page-second: Top Offer
    ------------------------------------------------- */
-.page-second-offer {
+.page-second-offer-top {
     padding-top: 15px;
     padding-bottom: 10px;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
@@ -1639,24 +1639,24 @@ footer {
     position: relative;
 }
 
-.page-second-offer span {
+.page-second-offer-top span {
     display: block;
     font-weight: 800;
     color: white;
 }
 
-.page-second-offer span:first-child {
+.page-second-offer-top span:first-child {
     font-size: 20px;
     line-height: 36px;
 }
 
-.page-second-offer span:last-child {
+.page-second-offer-top span:last-child {
     font-size: 24px;
     line-height: 50px;
     position: relative;
 }
 
-.page-second-offer span:last-child::before {
+.page-second-offer-top span:last-child::before {
     content: '';
     width: 21px;
     height: 21px;
@@ -1722,7 +1722,8 @@ footer {
     left: 15%;
 }
 
-.page-second-info__desc span:nth-child(4) {
+.page-second-info__desc span:nth-child(4),
+.page-second-offer__title {
     display: block;
     margin: 30px 0;
     padding: 25px 0;
@@ -1731,7 +1732,7 @@ footer {
     line-height: 36px;
     color: #c52a2a;
     background: url('../images/tape-bg.png') no-repeat center;
-    -webkit-background-size: cover;
+    -webkit-background-size: contain;
     background-size: cover;
 }
 
@@ -1769,4 +1770,79 @@ footer {
    ------------------------------------------------- */
 .page-second-video {
     margin-top: -30%;
+}
+
+/* -------------------------------------------------
+    Page-second: Offer
+   ------------------------------------------------- */
+.page-second-offer {
+    text-align: center;
+}
+
+.page-second-offer__title {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0 85px;
+}
+
+.page-second-offer__link {
+    margin-bottom: 40px;
+    padding: 0 95px;
+}
+
+.page-second-offer__link span:first-child {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.page-second-offer__link span a {
+    color: #c52a2a;
+    text-decoration: underline;
+}
+
+.page-second-offer__link span:last-child {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #371a84;
+}
+
+.page-second-offer__desc {
+    padding: 0 34px;
+}
+
+.page-second-offer__desc span {
+    display: block;
+}
+
+.page-second-offer__desc span:first-child {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #565656;
+}
+
+.page-second-offer__desc span:last-child {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #c52a2a;
+}
+
+.page-second-offer .btn-get {
+    position: static;
+    margin-bottom: 30px;
+}
+
+.btn-get + a {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    text-decoration: underline;
 }
