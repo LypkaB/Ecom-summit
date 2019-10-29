@@ -1626,3 +1626,41 @@ footer {
 .security div {
     margin-bottom: 25px;
 }
+
+/* -------------------------------------------------
+    Page-second: Offer
+   ------------------------------------------------- */
+.page-second-offer {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(243deg, #1a843d 0%, #60449a 100%);
+    text-align: center;
+}
+
+.page-second-offer span {
+    display: block;
+    font-weight: 800;
+    color: white;
+}
+
+.page-second-offer span:first-child {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.page-second-offer span:last-child {
+    font-size: 24px;
+    line-height: 50px;
+    position: relative;
+}
+
+.page-second-offer span:last-child::before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-image: url('../images/check-white.svg');
+    position: absolute;
+    top: 13px;
+    left: 13%;
+}
