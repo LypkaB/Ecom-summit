@@ -1846,3 +1846,89 @@ footer {
     color: black;
     text-decoration: underline;
 }
+
+/* -------------------------------------------------
+    Page-third: Banner
+   ------------------------------------------------- */
+.page-third__banner {
+    padding-bottom: 80px;
+}
+
+.page-third__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #ffbd2e;
+    text-transform: uppercase;
+}
+
+.page-third__title img {
+    width: 6%;
+    margin: 0 10px;
+}
+
+/* -------------------------------------------------
+    Page-third: Offer
+   ------------------------------------------------- */
+.page-third-offer {
+    margin-top: -65px;
+}
+
+.page-third-offer .page-second-offer__link span {
+    display: block;
+}
+
+.page-third-offer .page-second-offer__link span:first-child {
+    font-size: 27px;
+}
+
+.page-third-offer .page-second-offer__link span:nth-child(2) {
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #83ba3f;
+}
+
+.page-third-offer .page-second-offer__link span:nth-child(3) {
+    margin-bottom: 50px;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #371a84;
+}
+
+.page-third-offer .page-second-offer__link span:nth-child(4) {
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #565656;
+}
+
+.page-third-offer .page-second-offer__link span:nth-child(5) {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    text-decoration: line-through;
+    color: #565656;
+}
+
+.page-third-offer .page-second-offer__link span:nth-child(6) {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #c52a2a;
+}
