@@ -1,3 +1,15 @@
+@media (max-width: 1400px) {
+    .congrats-img-1 {
+        right: 0;
+    }
+}
+
+@media (max-width: 1240px) {
+    .congrats-img-2 {
+        width: 25%;
+    }
+}
+
 @media (max-width: 1190px) {
     .product__block-img {
         display: none;
@@ -149,6 +161,18 @@
 
     .page-third__title span:nth-child(3){
         order: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    .congrats-img-1 {
+        width: 15%;
+        top: 7%;
+    }
+
+    .congrats-img-2 {
+        width: 15%;
+        top: 20%;
     }
 }
 
@@ -442,6 +466,17 @@
     }
 }
 
+@media (max-width: 720px) {
+    .congrats-img-1 {
+        top: 25%;
+    }
+
+    .congrats-img-2 {
+        width: 15%;
+        top: 20%;
+    }
+}
+
 @media (max-width: 680px) {
     .team,
     .about__title {
@@ -623,6 +658,10 @@
     .answer-third__block-item:nth-child(9) .answer-third-item-title,
     .answer-third__block-item:nth-child(11) .answer-third-item-title {
         padding-top: 10px;
+    }
+
+    .congrats h1 {
+        font-size: 40px;
     }
 }
 
@@ -894,6 +933,10 @@
 
     .page-third__title img {
         width: 13%;
+    }
+
+    .congrats h1 {
+        font-size: 30px;
     }
 }
 
