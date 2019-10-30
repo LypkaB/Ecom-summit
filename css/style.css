@@ -1848,6 +1848,14 @@ footer {
 }
 
 /* -------------------------------------------------
+    Page-third: Header
+   ------------------------------------------------- */
+.page-third-header {
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* -------------------------------------------------
     Page-third: Banner
    ------------------------------------------------- */
 .page-third__banner {
@@ -1931,4 +1939,105 @@ footer {
     font-weight: 800;
     line-height: 50px;
     color: #c52a2a;
+}
+
+/* -------------------------------------------------
+    Page-fourth: Congrats
+   ------------------------------------------------- */
+.congrats {
+    background-image: linear-gradient(225deg, #363d7b 0%, #942757 100%);
+    text-align: center;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.congrats-img-1,
+.congrats-img-2 {
+    position: absolute;
+}
+
+.congrats-img-1 {
+    top: 5%;
+    right: 15%;
+}
+
+.congrats-img-2 {
+    left: 0;
+    bottom: -5px;
+}
+
+.congrats h1 {
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #ffbd2e;
+    text-transform: uppercase;
+}
+
+.congrats h1,
+.congrats span:nth-child(4),
+.congrats span:nth-child(5) {
+    margin-bottom: 50px;
+}
+
+.congrats span {
+    display: block;
+}
+
+.congrats span:nth-child(4) {
+    padding: 0 17%;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    color: white;
+}
+
+.congrats span:nth-child(5) {
+    padding: 0 9%;
+}
+
+.congrats span:nth-child(6) {
+    padding: 0 10%;
+}
+
+.congrats span:nth-child(5),
+.congrats span:nth-child(6),
+.congrats span:nth-child(6) a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #d7d7d7;
+}
+
+.congrats span:nth-child(6) a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------
+    Page-fourth: Banner
+   ------------------------------------------------- */
+.page-fourth__banner {
+    background-image: none;
+    margin-top: -15%;
+}
+
+.page-fourth__banner .banner__video {
+    margin-bottom: 40px;
+}
+
+.page-fourth__banner span {
+    display: inline-block;
+    padding: 0 3%;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+/* -------------------------------------------------
+    Page-fourth: Footer
+   ------------------------------------------------- */
+.page-fourth__banner .btn-get {
+    position: static;
 }
