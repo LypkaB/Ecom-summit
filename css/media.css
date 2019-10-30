@@ -1570,6 +1570,47 @@
     .page-third-offer .page-second-offer__link span:nth-child(6) {
         font-size: 42px;
     }
+
+    .congrats-img-1 {
+        width: 15%;
+        right: 12%;
+    }
+
+    .congrats-img-2 {
+        width: 23%;
+    }
+
+    .congrats h1 {
+        margin-bottom: 8%;
+        padding-top: 10%;
+        font-size: 78px;
+    }
+
+    .congrats span:nth-child(4) {
+        font-size: 30px;
+    }
+
+    .congrats span:nth-child(4),
+    .congrats span:nth-child(5),
+    .congrats span:nth-child(6),
+    .congrats span:nth-child(6) a,
+    .page-fourth__banner span {
+        line-height: 200%;
+    }
+
+    .congrats span:nth-child(5),
+    .congrats span:nth-child(6),
+    .congrats span:nth-child(6) a {
+        font-size: 22px;
+    }
+
+    .page-fourth__banner span {
+        font-size: 38px;
+    }
+
+    .page-fourth__banner span {
+        margin-bottom: 3%;
+    }
 }
 
 @media (min-width: 2560px) {
@@ -2377,6 +2418,33 @@
     .page-third-offer .page-second-offer__link span:nth-child(6) {
         margin-bottom: 8%;
         font-size: 58px;
+    }
+
+    .congrats h1 {
+        font-size: 96px;
+    }
+
+    .congrats span:nth-child(4) {
+        margin-bottom: 5%;
+        font-size: 40px;
+    }
+
+    .congrats span:nth-child(5) {
+        margin-bottom: 5%;
+    }
+
+    .congrats span:nth-child(5),
+    .congrats span:nth-child(6),
+    .congrats span:nth-child(6) a {
+        font-size: 30px;
+    }
+
+    .page-fourth__banner span {
+        font-size: 50px;
+    }
+
+    .page-fourth__banner span {
+        margin-top: 2%;
     }
 }
 
@@ -3302,6 +3370,32 @@
     .page-third-offer .page-second-offer__link span:nth-child(6) {
         font-size: 94px;
     }
+
+    .congrats-img-1 {
+        width: 18%;
+    }
+
+    .congrats-img-2 {
+        bottom: -6px;
+    }
+
+    .congrats h1 {
+        font-size: 132px;
+    }
+
+    .congrats span:nth-child(4) {
+        font-size: 64px;
+    }
+
+    .congrats span:nth-child(5),
+    .congrats span:nth-child(6),
+    .congrats span:nth-child(6) a {
+        font-size: 48px;
+    }
+
+    .page-fourth__banner span {
+        font-size: 80px;
+    }
 }
 
 @media (min-width: 5120px) {
@@ -4021,6 +4115,24 @@
 
     .page-third-offer .page-second-offer__link span:nth-child(6) {
         font-size: 124px;
+    }
+
+    .congrats h1 {
+        font-size: 178px;
+    }
+
+    .congrats span:nth-child(4) {
+        font-size: 80px;
+    }
+
+    .congrats span:nth-child(5),
+    .congrats span:nth-child(6),
+    .congrats span:nth-child(6) a {
+        font-size: 60px;
+    }
+
+    .page-fourth__banner span {
+        font-size: 100px;
     }
 }
 
