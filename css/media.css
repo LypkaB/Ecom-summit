@@ -1619,6 +1619,7 @@
     .page-third__title {
         padding-top: 7%;
         font-size: 56px;
+        text-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .page-third-offer .page-second-offer__title {
@@ -2462,10 +2463,11 @@
     .page-third__title {
         padding-bottom: 2%;
         font-size: 80px;
+        text-shadow: 6px 10px 0 rgba(0, 0, 0, 0.2);
     }
 
     .page-third__title img {
-        margin: 0 1%;
+        margin-left: 20px;
     }
 
     .page-third-offer .page-second-offer__link span:first-child {
@@ -3421,6 +3423,12 @@
     .page-third__title {
         padding-bottom: 3%;
         font-size: 130px;
+        text-shadow: 10px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .page-third__title img {
+        margin-left: 40px;
+        margin-right: 18px;
     }
 
     .page-third-offer .page-second-offer__title span {

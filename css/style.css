@@ -1421,6 +1421,7 @@ footer {
     font-weight: 900;
     line-height: 36px;
     color: #c52a2a;
+    font-style: oblique;
     background: url('../images/tape-bg.png') no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1730,6 +1731,7 @@ footer {
     font-size: 26px;
     font-weight: 900;
     line-height: 36px;
+    font-style: oblique;
     color: #c52a2a;
     background: url('../images/tape-bg.png') no-repeat center;
     -webkit-background-size: contain;
@@ -1877,13 +1879,16 @@ footer {
     font-size: 46px;
     font-weight: 900;
     line-height: 36px;
+    font-style: oblique;
+    text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
     color: #ffbd2e;
     text-transform: uppercase;
 }
 
 .page-third__title img {
     width: 6%;
-    margin: 0 10px;
+    margin-left: 18px;
+    margin-right: 10px;
 }
 
 /* -------------------------------------------------
