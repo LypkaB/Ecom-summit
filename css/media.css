@@ -123,6 +123,33 @@
     .page-second-info__desc span:nth-child(5)::after {
         top: 100%;
     }
+
+    .page-third__title {
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .page-third__title span {
+        font-size: 40px;
+        line-height: 150%;
+    }
+
+    .page-third__title span:nth-child(1){
+        order: 2;
+    }
+
+    .page-third__title img {
+        width: 7%;
+        order: 1;
+        margin-bottom: 2%;
+    }
+
+    .page-third__title span:nth-child(3){
+        order: 3;
+    }
 }
 
 @media (max-width: 880px) {
@@ -859,6 +886,14 @@
 
     .page-second-offer .btn-get a {
         font-size: 16px;
+    }
+
+    .page-third__title span {
+        font-size: 32px;
+    }
+
+    .page-third__title img {
+        width: 13%;
     }
 }
 
