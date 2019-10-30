@@ -1977,6 +1977,8 @@ footer {
     font-weight: 900;
     line-height: 36px;
     color: #ffbd2e;
+    font-style: oblique;
+    text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
 
