@@ -738,6 +738,19 @@
         text-align: center;
     }
 
+    .footer__content,
+    .footer__links {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .footer__desc,
+    .footer__links-about,
+    .footer__links-legal {
+        text-align: left;
+    }
+
     .page-first-team {
         margin-top: -15%;
     }
