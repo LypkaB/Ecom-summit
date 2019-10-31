@@ -1310,8 +1310,11 @@
     }
 
     .buy__block-img-second {
-        margin-top: 46px;
         width: 360px;
+    }
+
+    .security-page-second .buy__block-img-second {
+        margin-top: 0;
     }
 
     .buy__block + div span {
@@ -1490,10 +1493,6 @@
         right: -180px;
     }
 
-    .security__container {
-        width: 20%;
-    }
-
     .page-second-offer-top span:first-child {
         font-size: 31px;
     }
@@ -1573,7 +1572,7 @@
     }
 
     .page-second-offer {
-        margin-bottom: 2%;
+        margin-bottom: 1%;
     }
 
     .page-second-offer__title span {
@@ -2116,8 +2115,12 @@
     }
 
     .buy__block-img-second {
-        margin-top: 95px;
+        margin-top: 7%;
         width: 500px;
+    }
+
+    .security .buy__block-img-second {
+        margin-bottom: 4%;
     }
 
     .buy__block + div:last-child {
@@ -3018,8 +3021,12 @@
     }
 
     .buy__block-img-second {
-        margin-top: 150px;
+        margin-top: 6%;
         width: 855px;
+    }
+
+    .security .buy__block-img-second {
+        margin-bottom: 6%;
     }
 
     .buy__block + div:last-child {
@@ -3899,6 +3906,7 @@
     }
 
     .buy__block-img-second {
+        margin-bottom: 9%;
         width: 1110px;
     }
 

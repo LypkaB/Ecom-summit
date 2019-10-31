@@ -863,6 +863,7 @@ h1 {
 
 .buy__block > span {
     display: block;
+    margin-bottom: 30px;
     font-size: 20px;
     font-weight: 500;
     line-height: 36px;
@@ -870,7 +871,6 @@ h1 {
 
 .buy__block-img-second {
     width: 286px;
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1620,12 +1620,8 @@ footer {
 /* -------------------------------------------------
 	Page-first: Security
    ------------------------------------------------- */
-.security__container {
-    width: 285px;
-}
-
-.security div {
-    margin-bottom: 25px;
+.security {
+    margin-bottom: 35px;
 }
 
 /* -------------------------------------------------
