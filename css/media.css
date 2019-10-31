@@ -340,11 +340,15 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: center;
+    }
+
+    .team-member-name span:nth-child(2) {
+        padding: 0 3%;
     }
 
     .team__block .team__block-item:first-child .team-skill-img,
@@ -352,7 +356,10 @@
         padding-top: 0;
     }
 
-    .page-first-team {
+    .page-first-team,
+    .team-skill-img,
+    .team-member-name span:nth-child(1),
+    .team-member-name span:nth-child(2) {
         margin-bottom: 0;
     }
 
@@ -488,6 +495,7 @@
         -ms-flex-direction: column;
         flex-direction: column;
         text-align: center;
+        padding-top: 0;
     }
 
     .about__title span {
@@ -712,10 +720,6 @@
 }
 
 @media (max-width: 500px) {
-    .team {
-        margin-top: 190px;
-    }
-
     .footer__links {
         flex-direction: column;
         align-items: center;
@@ -940,6 +944,13 @@
     }
 }
 
+@media (max-width: 400px) {
+    .team__block-item {
+        transform: scale(0.8);
+        margin-bottom: -3%;
+    }
+}
+
 @media (max-width: 383px) {
     .question-fourth-bg {
         height: 230px;
@@ -1017,7 +1028,6 @@
 
     .info__content span,
     .date__info span:first-child,
-    .team__block-item span:nth-child(2),
     .answer-third-item-title span,
     .buy__block > span {
         font-size: 26px;
@@ -1075,6 +1085,15 @@
 
     .team__block-item span {
         width: 294px;
+    }
+
+    .team-member-name span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .team-member-name span:nth-child(2) {
+        font-size: 22px;
+        line-height: 150%;
     }
 
     .team__block-item span:nth-child(3),
@@ -1795,6 +1814,15 @@
     .answer-fourth__text li,
     .footer-title {
         margin-bottom: 40px;
+    }
+
+    .team-member-name span:nth-child(1) {
+        font-size: 34px;
+        margin-bottom: 8%;
+    }
+
+    .team-member-name span:nth-child(2) {
+        font-size: 28px;
     }
 
     .team__block-item:nth-child(1) .team-skill-img {
@@ -2650,6 +2678,18 @@
 
     .team__block-item:nth-child(3) .team-skill-img {
         width: 530px;
+    }
+
+    .team__block-item {
+        padding: 0 60px;
+    }
+
+    .team-member-name span:nth-child(1) {
+        font-size: 62px;
+    }
+
+    .team-member-name span:nth-child(2) {
+        font-size: 46px;
     }
 
     .container__section {
@@ -3578,6 +3618,15 @@
 
     .team__block-item:nth-child(3) .team-skill-img {
         width: 670px;
+    }
+
+    .team-member-name span:nth-child(1) {
+        font-size: 78px;
+        margin-bottom: 15%;
+    }
+
+    .team-member-name span:nth-child(2) {
+        font-size: 55px;
     }
 
     .container__section {
