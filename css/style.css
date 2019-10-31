@@ -1571,15 +1571,16 @@ footer {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-color: black;
+    border: 2px solid black;
     cursor: pointer;
 }
 
 .product__block-check input[type="checkbox"]:checked + label::before {
     background-image: url('../images/checkbox-check.svg');
     background-repeat: no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
+    -webkit-background-size: 85%;
+    background-size: 85%;
+    background-color: black;
     background-position: center;
 }
 

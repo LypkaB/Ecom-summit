@@ -22,8 +22,8 @@ $(function () {
     /*<----- Change link in checkbox ----->*/
     $('#second-check').change(function() {
         var href = $(this).prop('checked') ?
-            'https://google.com' :
-            'https://youtube.com';
+            'https://youtube.com' :
+            'https://google.com';
 
         $('.product .btn-get a').attr('href', href);
     });
