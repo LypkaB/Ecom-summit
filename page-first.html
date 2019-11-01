@@ -16,10 +16,10 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header__inner page-first-header">
-                <div class="logo">
+    <header class="page-first-header">
+        <div class="container page-first-container">
+            <div class="header__inner">
+                <div class="logo page-first-logo">
                     <a href="index.html">
                         <img src="images/logo-2.png" alt="logo">
                     </a>
@@ -33,7 +33,7 @@
 
     <!-- Info -->
     <section class="info page-first-info">
-        <div class="container">
+        <div class="container page-first-container">
             <div class="info__content">
                 <span>Step 2 of 3: Secure Acceptance Form</span>
                 <span>Read This Page</span>
@@ -47,7 +47,7 @@
 
     <!-- Tickets -->
     <section class="tickets">
-        <div class="container">
+        <div class="container page-first-container">
             <div class="tickets__desc">
                 <div class="tickets-img">
                     <img src="images/tickets-img-1.png" alt="tickets">
@@ -76,7 +76,7 @@
 
     <!-- Team -->
     <section class="team page-first-team">
-        <div class="container">
+        <div class="container page-first-container">
             <div class="team__block">
                 <div class="team__block-item">
                     <div class="team-member-img">
@@ -136,7 +136,7 @@
 
     <!-- Offer -->
     <section class="offer">
-        <div class="container">
+        <div class="container page-first-container">
             <div class="offer__title">
                 <span>One-Time Offer - Upgrade Your Order!</span>
             </div>
@@ -189,57 +189,48 @@
 
     <!-- Product -->
     <section class="product">
-        <div class="container product__container">
+        <div class="container page-first-container">
             <div class="product__block">
-                <div class="product__block-title">
-                    <span>Product</span>
-                    <span>Price</span>
-                </div>
-                <!-- /.product__block-title -->
-
-                <div class="product__block-check">
-
-                    <div class="product__block-check-first">
-                        <span><b>Everything eCom Summit</b></span>
-
-                        <div class="product__block-check-first-inner">
-                            <span>1$</span>
-                            <input type="checkbox" checked id="first-check">
-                            <label for="first-check"></label>
-                        </div>
-                        <!-- /.product__block-check-first-inner -->
-                    </div>
-                    <!-- /.product__block-check-first -->
-
-                    <div class="product__block-check-second">
-                        <span>
-                            <b>eCom Insider (Optional)</b> - First 14 days free, then $67 per month as long as I decide to
-                            remain a member
-                        </span>
-
-                        <div class="product__block-check-second-inner">
-                            <span>$0.00 For 21 Days Then $67/Month</span>
-                            <input type="checkbox" id="second-check">
-                            <label for="second-check"></label>
-                        </div>
-                        <!-- /.product__block-check-second-inner -->
-                    </div>
-                    <!-- /.product__block-check-second -->
-
-                    <div class="product__block-check-total">
-                        <span>Total</span>
-                        <span>$1</span>
-                    </div>
-                    <!-- /.product__block-check-total -->
-                </div>
-                <!-- /.product__block-check -->
-
-                <div class="product__block-img">
-                    <img src="images/product-img-1.png" alt="">
-                </div>
-                <!-- /.product__block-img -->
+                <table class="product__table" cellspacing="0" align="center" border="0">
+                    <tbody>
+                        <tr>
+                            <td>Product</td>
+                            <td>Price</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Everything eCom Summit</td>
+                            <td>$1</td>
+                            <td>
+                                <input type="checkbox" checked id="first-check">
+                                <label for="first-check"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                eCom Insider (Optional) - <span>First 14 days free, then $67 per month as long as I
+                                decide to remain a member</span>
+                            </td>
+                            <td>$0.00 For 21 Days Then $67/Month</td>
+                            <td>
+                                <input type="checkbox" id="second-check">
+                                <label for="second-check"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>$1</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <!-- /.product__block -->
+
+            <div class="product__block-img">
+                <img src="images/product-img-1.png" alt="">
+            </div>
+            <!-- /.product__block-img -->
 
             <div class="btn-get">
                 <a target="_blank" href="https://www.google.com">Proceed to checkout</a>
@@ -251,7 +242,7 @@
 
     <!-- Security -->
     <section class="security">
-        <div class="container">
+        <div class="container page-first-container">
             <div class="buy__block-img-second">
                 <img src="images/buy-block/buy-block-img-2.png" alt="cards">
             </div>
@@ -262,7 +253,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container page-first-container">
             <div class="footer__content">
                 <div class="footer__desc">
                     <span class="footer-title">Everything eCom Summit</span>
