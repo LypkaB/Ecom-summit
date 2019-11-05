@@ -605,6 +605,10 @@
         height: 170px;
     }
 
+    .btn-get {
+        width: 101%;
+    }
+
     .btn-get a {
         font-size: 51px;
         padding-top: 45px;
@@ -1143,7 +1147,7 @@
 
     .page-third__title {
         padding-bottom: 2%;
-        font-size: 80px;
+        font-size: 78px;
         text-shadow: 6px 10px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -1266,6 +1270,10 @@
     .banner__video-btn-play {
         width: 270px;
         height: 270px;
+    }
+
+    .btn-get {
+        width: 102%;
     }
 
     .btn-get a {
@@ -1919,7 +1927,7 @@
 
     .page-third__title {
         padding-bottom: 3%;
-        font-size: 130px;
+        font-size: 128px;
         text-shadow: 10px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -2517,7 +2525,7 @@
 
     .page-third__title {
         padding-bottom: 4%;
-        font-size: 162px;
+        font-size: 160px;
     }
 
     .page-third-offer .page-second-offer__title span {
