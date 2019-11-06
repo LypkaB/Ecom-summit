@@ -31,4 +31,12 @@ $(function () {
             $('.product .btn-get a').attr('href', 'https://youtube.com');
         }
     });
+
+    var $page = $('html, body');
+    $('a[href*="#"]').click(function() {
+        $page.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 900);
+        return false;
+    });
 });
