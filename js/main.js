@@ -20,14 +20,14 @@ $(function () {
     });
 
     /*<----- Change link in checkbox ----->*/
-    $('#first-check, #second-check').change(function() {
-        if ($(this).prop('checked') == false) {
-            $('.product .btn-get a').attr('href', '');
+    $('#first-check').change(function() {
+        if ($(this).prop('checked') == true) {
+            $('.product .btn-get a').attr('href', 'https://google.com');
         }
     });
 
     $('#second-check').change(function() {
-        if ($(this).prop('checked') == false) {
+        if ($(this).prop('checked') == true) {
             $('.product .btn-get a').attr('href', 'https://youtube.com');
         }
     });
