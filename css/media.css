@@ -740,6 +740,11 @@
     .answer-third__block-item:nth-child(5) .answer-third-item-title {
         height: 100%;
     }
+
+    .popup span {
+        display: inline-block;
+        padding: 0;
+    }
 }
 
 @media (max-width: 457px) {
@@ -768,7 +773,7 @@
     }
 
     .results-bg {
-        height: 100%;
+        height: 650px;
     }
 
     .btn-get-answer a span {
@@ -792,6 +797,16 @@
     .answer-third__block-item:nth-child(3) .answer-third-item-title {
         padding-top: 10px;
         height: 100%;
+    }
+}
+
+@media (max-width: 433px) {
+    .question__title-fifth span {
+        margin-top: 15px;
+    }
+
+    .answer-fifth__text span {
+        margin-top: 0;
     }
 }
 
@@ -996,6 +1011,24 @@
 
     .page-first-info .info__content span:nth-child(1) {
         font-size: 16px;
+    }
+
+    .popup span:nth-child(1) {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .popup span:nth-child(2) {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .popup-img {
+        margin-bottom: 20px;
+    }
+
+    .btn-close {
+        font-size: 14px;
     }
 }
 
