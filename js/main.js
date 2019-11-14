@@ -7,14 +7,19 @@ $(function () {
 
     /*<----- Pop-up window ----->*/
     $('.btn-get, .sidebar a, .btn-sticky').on('click', function () {
-        $('.overlay').show();
+        $('.overlay').fadeIn('fast');
     });
 
     $('.btn-close').on('click', function () {
         $('.overlay').hide();
     });
 
-    /*<----- Navigation menu ----->*/
+    /*<----- Show popup when user leave ----->*/
+    $(document).mouseleave(function() {
+        $('.overlay').fadeIn('fast');
+    });
+
+    /*<----- Show navigation menu ----->*/
     $('.header__btn-menu').on('click', function() {
         $('.header__list').slideToggle();
     });
@@ -32,6 +37,7 @@ $(function () {
         }
     });
 
+    /*<----- Scroll for an anchor links ----->*/
     var $page = $('html, body');
     $('a[href*="#"]').click(function() {
         $page.animate({
