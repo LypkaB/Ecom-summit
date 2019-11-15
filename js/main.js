@@ -16,7 +16,17 @@ $(function () {
 
     /*<----- Show popup when user leave ----->*/
     $(document).mouseleave(function() {
-        $('.overlay').fadeIn('fast');
+        $('.overlay-leave').fadeIn('fast');
+    });
+
+    $(document).click(function(e) {
+        if (($('.overlay-leave').is(':visible')) && (!$(e.target).closest('.popup-leave').length)) {
+            $('.overlay-leave').remove();
+        }
+    });
+
+    $('.btn-leave-close').on('click', function () {
+        $('.overlay-leave').remove();
     });
 
     /*<----- Show navigation menu ----->*/
