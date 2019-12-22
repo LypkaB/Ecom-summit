@@ -1,0 +1,2276 @@
+/* -------------------------------------------------
+	Media Queries for 5K screens
+   ------------------------------------------------- */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 60%;
+    }
+
+    .container__section {
+        max-width: 93%;
+    }
+
+    /* -------------------------------------------------
+	    Header
+       ------------------------------------------------- */
+    .logo {
+        width: 20%;
+    }
+
+    .header__list li + li {
+        margin-left: 45px;
+    }
+
+    .header__list a {
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------
+        Top info
+       ------------------------------------------------- */
+    .top-info span {
+        font-size: 26px;
+    }
+
+    .top-info span:first-child {
+        margin-right: 0.5%;
+    }
+
+    /* -------------------------------------------------
+        Banner
+       ------------------------------------------------- */
+    .banner h1 {
+        font-size: 52px;
+        line-height: 140%;
+    }
+
+    .banner h1,
+    .banner h3 {
+        line-height: 140%;
+    }
+
+    .banner h3 {
+        font-size: 26px;
+    }
+
+    .btn-link a {
+        font-size: 38px;
+    }
+
+    /* -------------------------------------------------
+        Event info
+       ------------------------------------------------- */
+    .event-info__desc span:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .event-info__desc span:nth-child(2) {
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------
+        Speakers
+       ------------------------------------------------- */
+    .speakers__item-speaker-img {
+        margin-bottom: 10%;
+        width: 60%;
+    }
+
+    .speakers__item-speaker-info span:nth-child(1) {
+        margin-bottom: 7%;
+        font-size: 25px;
+    }
+
+    .speakers__item-speaker-info span:nth-child(2) {
+        font-size: 21px;
+        line-height: 200%;
+    }
+
+    .speakers__item-skill-img {
+        width: 70%;
+    }
+
+    /* -------------------------------------------------
+        Sidebar
+       ------------------------------------------------- */
+    .sidebar__wrap {
+        min-width: 30%;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 580px;
+    }
+
+    .sidebar span:nth-child(2) {
+        margin-top: -38px;
+        font-size: 16px;
+    }
+
+    .sidebar span:nth-child(3) {
+        font-size: 24px;
+    }
+
+    .sidebar span:nth-child(4) {
+        font-size: 17px;
+        line-height: 200%;
+    }
+
+    .sidebar .btn-link {
+        width: 90%;
+    }
+
+    .sidebar .btn-link a {
+        padding-top: 7%;
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------
+	    About
+       ------------------------------------------------- */
+    .about__title span {
+        width: 55%;
+        font-size: 28px;
+        line-height: 170%;
+    }
+
+    .about__desc p {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    /* -------------------------------------------------
+        Question №1
+       ------------------------------------------------- */
+    .question__title span:nth-child(1) {
+        font-size: 36px;
+        line-height: 170%;
+    }
+
+    .question__title span:nth-child(2) {
+        font-size: 46px;
+        line-height: 150%;
+    }
+
+    .question-first span:nth-child(3) {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    /* -------------------------------------------------
+        Answer №1
+       ------------------------------------------------- */
+    .answer-title {
+        font-size: 34px;
+        line-height: 150%;
+    }
+
+    .answer p {
+        font-size: 22px;
+    }
+
+    .answer p,
+    .answer-first li {
+        line-height: 200%;
+    }
+
+    .answer__list {
+        margin-left: 8%;
+    }
+
+    .answer-first li {
+        font-size: 20px;
+    }
+
+    .answer__list li::before {
+        margin-top: 1%;
+        width: 5%;
+        height: 5%;
+    }
+
+    /* -------------------------------------------------
+	    Question №2
+       ------------------------------------------------- */
+    .question p {
+        font-size: 19px;
+        line-height: 200%;
+    }
+
+    /* -------------------------------------------------
+	    Answer №2
+       ------------------------------------------------- */
+    .answer-title__answer-second {
+        font-size: 38px;
+    }
+
+    .answer-second-img {
+        width: 15%;
+        height: auto;
+    }
+
+    .answer-second-img img {
+        margin-bottom: -4%;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(1),
+    .answer-second__blocks-item__title__inner > span:nth-child(3),
+    .answer-second__blocks-item__desc p {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) span,
+    .answer-second__blocks-item__desc > span,
+    .answer-second__blocks-item__desc p span {
+        font-size: 20px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(3) {
+        font-size: 26px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(4) {
+        font-size: 36px;
+    }
+
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results span {
+        font-size: 18px;
+    }
+
+    /* -------------------------------------------------
+        Answer №3
+       ------------------------------------------------- */
+    .answer-third .answer-title__answer-third {
+        font-size: 32px;
+    }
+
+    .answer-third__blocks-item > span,
+    .attend {
+        font-size: 24px;
+    }
+
+    .answer-third__blocks-item__content span {
+        font-size: 20px;
+        line-height: 170%;
+    }
+
+    .answer-third__blocks-item__question span {
+        font-size: 32px;
+    }
+
+    .answer-third__blocks-item__question span:nth-child(1),
+    .answer-third__blocks ~ span {
+        font-size: 20px;
+    }
+
+    .answer-third__blocks-item__question span:nth-child(1),
+    .answer-third__blocks-item__question span:nth-child(2) {
+        margin-bottom: 2%;
+    }
+
+    .answer-third__blocks ~ span:nth-child(3) {
+        font-size: 34px;
+    }
+
+    /* -------------------------------------------------
+        Answer №4
+       ------------------------------------------------- */
+    .answer-fourth .answer__list li {
+        font-size: 20px;
+    }
+
+    .answer-fourth .answer__list li::before {
+        margin-top: -5px;
+    }
+
+    .date {
+        font-size: 24px;
+    }
+
+    /* -------------------------------------------------
+        Answer №5
+       ------------------------------------------------- */
+    .answer-fifth .answer__list li {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q. title
+       ------------------------------------------------- */
+    .faq-title h2 {
+        font-size: 36px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q.
+       ------------------------------------------------- */
+    .faq-question,
+    .faq-answer {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    .faq span:nth-child(15) {
+        font-size: 36px;
+    }
+
+    /* -------------------------------------------------
+        Footer
+       ------------------------------------------------- */
+    .footer-text,
+    .footer-link {
+        font-size: 18px;
+        line-height: 200%;
+    }
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        font-size: 14px;
+    }
+
+    /* -------------------------------------------------
+        Popup
+       ------------------------------------------------- */
+    .popup__content {
+        width: 70%;
+        padding: 4% 3%;
+    }
+
+    .popup__content span:nth-child(1) {
+        font-size: 40px;
+        margin-bottom: 4%;
+    }
+
+    .popup__content span:nth-child(2) {
+        font-size: 26px;
+        line-height: 2;
+        padding: 0 14%;
+        margin-bottom: 5%;
+    }
+
+    .popup__content-img {
+        margin-bottom: 3%;
+    }
+
+    .popup__content_form input {
+        width: 97%;
+        padding: 2.5% 3% 2%;
+        margin-bottom: 4%;
+    }
+
+    .popup__content_form input,
+    .popup__content_form input::placeholder {
+        font-size: 24px;
+    }
+
+    .btn-popup {
+        width: 97%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        margin-bottom: 4%;
+        font-size: 30px;
+    }
+
+    .btn-close {
+        font-size: 26px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Header
+       ------------------------------------------------- */
+    .page-second-header .header__wrap {
+        padding: 3% 0;
+    }
+
+    .page-second-header .logo {
+        width: 17%;
+    }
+
+    /* -------------------------------------------------
+	    Page №2: Top info
+       ------------------------------------------------- */
+    .page-second-top-info {
+        padding-top: 1%;
+        padding-bottom: 0.5%;
+    }
+
+    .page-second-top-info span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .page-second-top-info span:nth-child(1),
+    .page-second-top-info span:nth-child(3) {
+        line-height: 200%;
+    }
+
+    .page-second-top-info span:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .page-second-top-info span:nth-child(3)::before {
+        transform: scale(1.5);
+        top: 4px;
+        left: -40px;
+    }
+
+    /* -------------------------------------------------
+	    Page №2: Need know
+       ------------------------------------------------- */
+    .need-know {
+        padding-top: 3%;
+        padding-bottom: 27%;
+    }
+
+    .need-know-title {
+        margin-bottom: 5%;
+        font-size: 40px;
+    }
+
+    .need-know__desc {
+        width: 73%;
+    }
+
+    .need-know__desc span {
+        font-size: 28px;
+        line-height: 200%;
+    }
+
+    .need-know__desc span,
+    .need-know .one-time-offer ~ span:nth-child(4) {
+        line-height: 200%;
+    }
+
+    .need-know__desc span::before {
+        width: 31px;
+        height: 31px;
+        top: -5px;
+        left: -42px;
+    }
+
+    .need-know .one-time-offer {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 4%;
+        font-size: 36px;
+    }
+
+    .need-know .one-time-offer ~ span:nth-child(4) {
+        font-size: 32px;
+    }
+
+    /* -------------------------------------------------
+	    Page №2: Offer
+       ------------------------------------------------- */
+    .offer {
+        margin-top: -30.5%;
+    }
+
+    .offer-arrows-img {
+        width: 90%;
+        margin-bottom: 1%;
+    }
+
+    .offer .one-time-offer {
+        width: 92%;
+        padding-bottom: 1%;
+        font-size: 34px;
+    }
+
+    .offer .one-time-offer,
+    .offer .btn-link a {
+        margin-bottom: 50px;
+    }
+
+    .offer h2 {
+        font-size: 40px;
+    }
+
+    .offer h2,
+    .offer h3,
+    .offer span:nth-child(6) {
+        line-height: 1.7;
+    }
+
+    .offer h3 {
+        font-size: 32px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 24px;
+    }
+
+    .offer span:nth-child(6),
+    .offer span:nth-child(7) {
+        margin-bottom: 70px;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 34px;
+    }
+
+    .offer a:nth-child(9) {
+        font-size: 18px;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Banner
+       ------------------------------------------------- */
+    .page-third-banner h1 {
+        font-size: 62px;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Offer
+       ------------------------------------------------- */
+    .page-third-offer {
+        margin-top: -35px;
+    }
+
+    .page-third-offer h2 {
+        padding: 0 20px;
+    }
+
+    .page-third-offer h2,
+    .page-third-offer span:nth-child(3) {
+        margin-bottom: 80px;
+    }
+
+    .page-third-offer span:nth-child(3) {
+        font-size: 40px;
+    }
+
+    .page-third-offer span:nth-child(5) {
+        font-size: 26px;
+        line-height: 1.7;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Banner
+       ------------------------------------------------- */
+    .page-fourth-banner h1 {
+        font-size: 76px;
+    }
+
+    .page-fourth-banner h2 {
+        font-size: 34px;
+    }
+
+    .page-fourth-banner h2,
+    .page-fourth-banner span {
+        line-height: 1.7;
+    }
+
+    .page-fourth-banner span {
+        font-size: 24px;
+    }
+
+    .page-fourth-banner::before {
+        width: 48%;
+        height: 46%;
+    }
+
+    .page-fourth-banner::after {
+        width: 26%;
+        height: 24%;
+        top: 6%;
+        right: 0;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Video
+       ------------------------------------------------- */
+    .video h1 {
+        font-size: 38px;
+    }
+
+    .video .btn-link a {
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (min-width: 2560px) {
+    /* -------------------------------------------------
+	    Header
+       ------------------------------------------------- */
+    .header__wrap {
+        padding: 2% 0;
+    }
+
+    .header__list li + li {
+        margin-left: 55px;
+    }
+
+    .header__list a {
+        font-size: 26px;
+    }
+
+    .header__list li:last-child a {
+        padding: 8% 40px 7%;
+    }
+
+    .header__list li:last-child a,
+    .header__btn-menu {
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+    }
+
+    /* -------------------------------------------------
+        Top info
+       ------------------------------------------------- */
+    .top-info span {
+        font-size: 36px;
+    }
+
+    .top-info {
+        padding: 3% 0;
+    }
+
+    /* -------------------------------------------------
+        Banner
+       ------------------------------------------------- */
+    .banner {
+        padding: 3% 0;
+    }
+
+    .banner h1 {
+        margin-bottom: 4%;
+        font-size: 70px;
+        padding: 0 4% 0;
+    }
+
+    .banner h3 {
+        margin-bottom: 4.5%;
+        font-size: 34px;
+    }
+
+    .banner__video {
+        margin-bottom: 3%;
+    }
+
+    .banner__video img,
+    .btn-link a {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .btn-link {
+        margin-bottom: 4%;
+    }
+
+    .btn-link a {
+        padding-top: 3.5%;
+        padding-bottom: 2.5%;
+        font-size: 50px;
+    }
+
+    /* -------------------------------------------------
+        Event info
+       ------------------------------------------------- */
+    .event-info {
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+
+    .event-info__desc span:nth-child(1) {
+        margin-right: 0.5%;
+        font-size: 30px;
+    }
+
+    .event-info__desc span:nth-child(2) {
+        font-size: 28px;
+    }
+
+    /* -------------------------------------------------
+        Speakers
+       ------------------------------------------------- */
+    .speakers {
+        padding-bottom: 5%;
+    }
+
+    .speakers__block-item {
+        padding: 4% 2% 3%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .speakers__item-speaker-info span:nth-child(1) {
+        font-size: 32px;
+    }
+
+    .speakers__item-speaker-info span:nth-child(2) {
+        margin-bottom: 3%;
+        font-size: 28px;
+    }
+
+    /* -------------------------------------------------
+        Sidebar
+       ------------------------------------------------- */
+    .sidebar {
+        height: 800px;
+        padding: 0.2%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .sidebar span:nth-child(2) {
+        margin-top: -61px;
+        margin-bottom: 10%;
+        padding: 4% 0 3%;
+        font-size: 22px;
+    }
+
+    .sidebar span:nth-child(3) {
+        margin-bottom: 5%;
+        font-size: 32px;
+    }
+
+    .sidebar span:nth-child(4) {
+        margin-bottom: 8%;
+        font-size: 23px;
+    }
+
+    .sidebar .btn-link a {
+        padding-top: 9%;
+        padding-bottom: 7%;
+        font-size: 28px;
+    }
+
+    /* -------------------------------------------------
+        About
+       ------------------------------------------------- */
+    .about {
+        padding-bottom: 8%;
+    }
+
+    .about__title {
+        margin-bottom: 10%;
+    }
+
+    .about__title span {
+        margin-right: 2%;
+        width: 40%;
+        font-size: 38px;
+    }
+
+    .about__desc p + p {
+        margin-top: 5%;
+    }
+
+    .about__desc p {
+        font-size: 26px;
+    }
+
+    /* -------------------------------------------------
+        Question №1
+       ------------------------------------------------- */
+    .question {
+        padding-top: 8%;
+    }
+
+    .question-first {
+        padding-bottom: 20%;
+    }
+
+    .question__title span:nth-child(1) {
+        font-size: 54px;
+    }
+
+    .question__title span:nth-child(2) {
+        margin-bottom: 7%;
+        font-size: 62px;
+    }
+
+    .question-first-img,
+    .question-first span:nth-child(3) {
+        margin-bottom: 6%;
+    }
+
+    .question-first span:nth-child(3) {
+        font-size: 30px;
+    }
+
+    /* -------------------------------------------------
+        Answer №1
+       ------------------------------------------------- */
+    .answer {
+        margin-top: -17%;
+        padding-bottom: 6%;
+    }
+
+    .answer-title {
+        margin-bottom: 7%;
+        padding: 7% 4% 7%;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        font-size: 46px;
+    }
+
+    .answer p + p,
+    .answer__list li + li {
+        margin-top: 5%;
+    }
+
+    .answer p {
+        font-size: 30px;
+    }
+
+    .answer__list {
+        margin: 7% 0 7% 9%;
+    }
+
+    .answer-first li {
+        font-size: 28px;
+    }
+
+    .answer-first__info-screens {
+        margin-top: 8%;
+    }
+
+    .answer-first__img {
+        margin-bottom: 8%;
+    }
+
+    /* -------------------------------------------------
+	    Question №2
+       ------------------------------------------------- */
+    .question {
+        padding-bottom: 17%;
+    }
+
+    .question p + p {
+        margin-top: 5%;
+    }
+
+    .question p {
+        font-size: 26px;
+    }
+
+    .question p:last-child {
+        margin-bottom: 5%;
+    }
+
+    /* -------------------------------------------------
+	    Answer №2
+       ------------------------------------------------- */
+    .answer-second .answer-title__answer-second {
+        padding: 5% 15% 5%;
+        font-size: 50px;
+    }
+
+    .answer-second__blocks-item {
+        margin-bottom: 5%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .answer-second__blocks-item__title {
+        padding: 2% 4% 1%;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(1) {
+        margin-bottom: 2%;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) {
+        margin-bottom: 1%;
+    }
+
+    .answer-second-img {
+        border: 15px solid #edf3ea;
+    }
+
+    .answer-second__blocks-item__desc {
+        padding: 5% 4% 3%;
+    }
+
+    .answer-second__blocks-item__desc p {
+        margin-top: 4%;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(1),
+    .answer-second__blocks-item__desc p {
+        font-size: 20px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) {
+        font-size: 36px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(3) {
+        font-size: 22px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) span,
+    .answer-second__blocks-item__desc > span,
+    .answer-second__blocks-item__desc p span {
+        font-size: 24px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(3) {
+        margin-bottom: 5%;
+        font-size: 32px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(4) {
+        font-size: 48px;
+    }
+
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results {
+        padding-bottom: 7%;
+    }
+
+    .results span {
+        font-size: 26px;
+    }
+
+    /* -------------------------------------------------
+        Answer №3
+       ------------------------------------------------- */
+    .answer-third {
+        padding-bottom: 5%;
+    }
+
+    .answer-third__blocks {
+        margin-bottom: 10%;
+    }
+
+    .answer-third .answer-title__answer-third {
+        padding: 3% 2% 3%;
+        font-size: 44px;
+    }
+
+    .answer-third__blocks-item > span {
+        padding: 4% 5% 3%;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        font-size: 34px;
+    }
+
+    .answer-third__blocks-item__content {
+        padding: 4% 5%;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        border: 2px solid #fdad00;
+    }
+
+    .answer-third__blocks-item__content span,
+    .answer-third__blocks ~ span {
+        font-size: 27px;
+    }
+
+    .answer-third__blocks-item__content div {
+        width: 25%;
+    }
+
+    .answer-third__blocks-item,
+    .answer-third__blocks-item__question {
+        margin-bottom: 5%;
+    }
+
+    .answer-third__blocks-item__question {
+        padding: 3% 6% 7% 5%;
+    }
+
+    .answer-third__blocks-item__question span {
+        font-size: 44px;
+        line-height: 150%;
+    }
+
+    .answer-third__blocks-item__question span:nth-child(1) {
+        font-size: 28px;
+    }
+
+    .answer-third__blocks ~ span:nth-child(3) {
+        font-size: 54px;
+    }
+
+    .answer-third__blocks ~ span:nth-child(3),
+    .answer-third .btn-link {
+        margin-bottom: 7%;
+    }
+
+    .answer-third__blocks ~ span {
+        margin-bottom: 4%;
+        line-height: 180%;
+    }
+
+    .answer-third .btn-link a,
+    .answer-fourth .btn-link a,
+    .faq .btn-link a {
+        padding-top: 6%;
+        padding-bottom: 5%;
+    }
+
+    .attend {
+        font-size: 32px;
+    }
+
+    /* -------------------------------------------------
+	    Question №4
+       ------------------------------------------------- */
+    .question-fourth,
+    .question-fifth {
+        padding-bottom: 8%;
+    }
+
+    .question-fourth .question__title span:nth-child(2),
+    .question-fifth .question__title span:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+    /* -------------------------------------------------
+        Answer №4
+       ------------------------------------------------- */
+    .answer-fourth {
+        margin-top: 0;
+        padding-top: 6%;
+        padding-bottom: 0;
+    }
+
+    .answer-fourth .answer__list {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .answer-fourth .answer__list li + li {
+        margin-top: 9%;
+    }
+
+    .answer-fourth .answer__list li {
+        font-size: 28px;
+    }
+
+    .answer-fourth .answer__list li::before {
+        margin-top: -1%;
+    }
+
+    .date {
+        margin: 7% 0;
+        font-size: 34px;
+    }
+
+    .answer-fourth .btn-link,
+    .faq .btn-link {
+        margin-bottom: 7%;
+    }
+
+    /* -------------------------------------------------
+        Answer №5
+       ------------------------------------------------- */
+    .answer-fifth {
+        margin-top: 0;
+        padding-top: 6%;
+    }
+
+    .answer-fifth .answer__list li {
+        font-size: 26px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q. title
+       ------------------------------------------------- */
+    .faq-title {
+        padding-top: 8%;
+        padding-bottom: 7%;
+    }
+
+    .faq-title h2 {
+        font-size: 54px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q.
+       ------------------------------------------------- */
+    .faq {
+        padding: 7% 0;
+    }
+
+    .faq-question {
+        margin-bottom: 4%;
+    }
+
+    .faq-answer,
+    .faq-separator {
+        margin-bottom: 5%;
+    }
+
+    .faq-question,
+    .faq-answer {
+        font-size: 26px;
+    }
+
+    .faq .attend {
+        margin-bottom: 5%;
+    }
+
+    .checkout-img {
+        margin: 0 auto 8%;
+    }
+
+    .faq span:nth-child(15) {
+        font-size: 48px;
+    }
+
+    /* -------------------------------------------------
+        Footer
+       ------------------------------------------------- */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
+    }
+
+    .footer-text,
+    .footer-link {
+        font-size: 24px;
+    }
+
+    .footer-title {
+        margin-bottom: 5%;
+        font-size: 28px;
+    }
+
+    .footer__links-about .footer-title,
+    .footer__links-support .footer-title,
+    .footer__links-legal .footer-title {
+        margin-bottom: 20%;
+    }
+
+    .footer-separator {
+        margin: 4% 0;
+    }
+
+    .footer__info .logo {
+        margin: 0 auto 3%;
+    }
+
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    .footer__info span:nth-child(4) {
+        margin-bottom: 2%;
+    }
+
+    /* -------------------------------------------------
+        Popup
+       ------------------------------------------------- */
+    .popup__content span:nth-child(1) {
+        font-size: 52px;
+    }
+
+    .popup__content span:nth-child(2),
+    .btn-close {
+        font-size: 34px;
+    }
+
+    .popup__content_form input,
+    .popup__content_form input::placeholder {
+        font-size: 32px;
+    }
+
+    .btn-popup {
+        font-size: 40px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Top info
+       ------------------------------------------------- */
+    .page-second-top-info span:nth-child(1) {
+        font-size: 36px;
+    }
+
+    .page-second-top-info span:nth-child(3) {
+        font-size: 40px;
+    }
+
+    .page-second-top-info span:nth-child(3)::before {
+        transform: scale(2);
+        top: 5px;
+        left: -5%;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Need know
+       ------------------------------------------------- */
+    .need-know-title {
+        font-size: 52px;
+    }
+
+    .need-know__desc {
+        width: 70%;
+    }
+
+    .need-know__desc span {
+        font-size: 36px;
+    }
+
+    .need-know__desc span::before {
+        width: 42px;
+        height: 42px;
+        top: -8px;
+        left: -60px;
+    }
+
+    .need-know .one-time-offer {
+        font-size: 46px;
+    }
+
+    .need-know .one-time-offer ~ span:nth-child(4) {
+        font-size: 42px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Offer
+       ------------------------------------------------- */
+    .offer .one-time-offer {
+        font-size: 44px;
+        line-height: 150%;
+    }
+
+    .offer h2 {
+        font-size: 58px;
+    }
+
+    .offer h2,
+    .offer h3 {
+        margin-bottom: 5%;
+    }
+
+    .offer h3 {
+        font-size: 42px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 33px;
+    }
+
+    .offer span:nth-child(6),
+    .offer span:nth-child(7) {
+        margin-bottom: 7%;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 50px;
+    }
+
+    .offer .btn-link a {
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+
+    .offer a:nth-child(9) {
+        font-size: 24px;
+        margin-bottom: 4%;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Banner
+       ------------------------------------------------- */
+    .page-third-banner h1 {
+        padding: 0;
+        font-size: 82px;
+    }
+
+    .page-third-banner h1 img {
+        width: 7%;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Offer
+       ------------------------------------------------- */
+    .page-third-offer h2 {
+        font-size: 54px;
+    }
+
+    .page-third-offer h2,
+    .page-third-offer span:nth-child(3),
+    .page-third-offer span:nth-child(5) {
+        margin-bottom: 7%;
+    }
+
+    .page-third-offer span:nth-child(3) {
+        font-size: 52px;
+    }
+
+    .page-third-offer span:nth-child(5) {
+        font-size: 34px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 40px;
+        margin-bottom: 4%;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 60px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Banner
+       ------------------------------------------------- */
+    .page-fourth-banner {
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .page-fourth-banner h1 {
+        font-size: 94px;
+    }
+
+    .page-fourth-banner h2 {
+        font-size: 49px;
+    }
+
+    .page-fourth-banner h2,
+    .page-fourth-banner span:nth-child(3) {
+        margin-bottom: 6%;
+    }
+
+    .page-fourth-banner span {
+        font-size: 33px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Video
+       ------------------------------------------------- */
+    .video h1 {
+        font-size: 52px;
+        margin: 6% 0;
+    }
+
+    .video .btn-link {
+        -webkit-box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+    }
+}
+
+@media (min-width: 4096px) {
+    /* -------------------------------------------------
+	    Header
+       ------------------------------------------------- */
+    .header__list li + li {
+        margin-left: 90px;
+    }
+
+    .header__list a {
+        font-size: 46px;
+    }
+
+    .header__list li:last-child a,
+    .header__btn-menu {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    /* -------------------------------------------------
+        Top info
+       ------------------------------------------------- */
+    .top-info span {
+        font-size: 66px;
+    }
+
+    /* -------------------------------------------------
+        Banner
+       ------------------------------------------------- */
+    .banner h1 {
+        font-size: 112px;
+    }
+
+    .banner h3 {
+        font-size: 56px;
+    }
+
+    .btn-link a {
+        font-size: 78px;
+    }
+
+    /* -------------------------------------------------
+        Event info
+       ------------------------------------------------- */
+    .event-info__desc span:nth-child(1) {
+        font-size: 50px;
+    }
+
+    .event-info__desc span:nth-child(2) {
+        font-size: 48px;
+    }
+
+    /* -------------------------------------------------
+        Speakers
+       ------------------------------------------------- */
+    .speakers__item-speaker-info span:nth-child(1) {
+        font-size: 50px;
+    }
+
+    .speakers__item-speaker-info span:nth-child(2) {
+        font-size: 46px;
+    }
+
+    /* -------------------------------------------------
+        Sidebar
+       ------------------------------------------------- */
+    .sidebar {
+        height: 1255px;
+        border: 2px solid #83ba3f;
+    }
+
+    .sidebar span:nth-child(2) {
+        margin-top: -95px;
+        font-size: 35px;
+    }
+
+    .sidebar span:nth-child(3) {
+        font-size: 50px;
+    }
+
+    .sidebar span:nth-child(4) {
+        padding: 0 8%;
+        font-size: 34px;
+    }
+
+    .sidebar .btn-link a {
+        font-size: 40px;
+    }
+
+    /* -------------------------------------------------
+        About
+       ------------------------------------------------- */
+    .about__title span {
+        font-size: 58px;
+    }
+
+    .about__title-img {
+        width: 60%;
+    }
+
+    .about__desc p {
+        font-size: 42px;
+    }
+
+    /* -------------------------------------------------
+        Question №1
+       ------------------------------------------------- */
+    .question__title span:nth-child(1) {
+        font-size: 84px;
+    }
+
+    .question__title span:nth-child(2) {
+        font-size: 98px;
+    }
+
+    .question-first span:nth-child(3) {
+        font-size: 48px;
+    }
+
+    /* -------------------------------------------------
+        Answer №1
+       ------------------------------------------------- */
+    .answer-title {
+        padding: 8% 6% 8%;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border: 5px solid #fdad00;
+        font-size: 72px;
+    }
+
+    .answer p {
+        font-size: 48px;
+    }
+
+    .answer-first li {
+        font-size: 44px;
+    }
+
+    /* -------------------------------------------------
+        Question №2
+       ------------------------------------------------- */
+    .question p {
+        font-size: 42px;
+    }
+
+    /* -------------------------------------------------
+        Answer №2
+       ------------------------------------------------- */
+    .answer-second .answer-title__answer-second {
+        font-size: 80px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(1),
+    .answer-second__blocks-item__desc p {
+        font-size: 32px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) {
+        font-size: 58px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(3) {
+        font-size: 38px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) span,
+    .answer-second__blocks-item__desc > span,
+    .answer-second__blocks-item__desc p span {
+        font-size: 34px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(3) {
+        margin: 7% 0;
+        font-size: 52px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(4) {
+        font-size: 80px;
+    }
+
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results span {
+        font-size: 40px;
+    }
+
+    /* -------------------------------------------------
+        Answer №3
+       ------------------------------------------------- */
+    .answer-third .answer-title__answer-third {
+        font-size: 68px;
+    }
+
+    .answer-third__blocks-item > span {
+        -webkit-border-radius: 15px 15px 0 0;
+        -moz-border-radius: 15px 15px 0 0;
+        font-size: 52px;
+    }
+
+    .answer-third__blocks-item__content {
+        -webkit-border-radius: 0 0 15px 15px;
+        -moz-border-radius: 0 0 15px 15px;
+        border: 3px solid #fdad00;
+    }
+
+    .answer-third__blocks-item__content span {
+        font-size: 42px;
+    }
+
+    .answer-third__blocks-item__question {
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+
+    .answer-third__blocks-item__question span {
+        font-size: 68px;
+    }
+
+    .answer-third__blocks-item__question span:nth-child(1) {
+        font-size: 42px;
+    }
+
+    .answer-third__blocks ~ span:nth-child(3) {
+        font-size: 84px;
+    }
+
+    .answer-third__blocks ~ span {
+        font-size: 44px;
+    }
+
+    .answer-third .btn-link span,
+    .answer-fourth .btn-link span,
+    .faq .btn-link span {
+        border-bottom: 5px solid white;
+    }
+
+    .attend {
+        font-size: 48px;
+    }
+
+    /* -------------------------------------------------
+        Answer №4
+       ------------------------------------------------- */
+    .answer-fourth .answer__list li {
+        font-size: 44px;
+    }
+
+    .date {
+        font-size: 54px;
+    }
+
+    /* -------------------------------------------------
+        Answer №5
+       ------------------------------------------------- */
+    .answer-fifth .answer__list li {
+        font-size: 42px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q. title
+       ------------------------------------------------- */
+    .faq-title h2 {
+        font-size: 84px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q.
+       ------------------------------------------------- */
+    .faq-question, .faq-answer {
+        font-size: 42px;
+    }
+
+    .faq-separator {
+        border: 3px solid black;
+    }
+
+    .faq span:nth-child(15) {
+        font-size: 80px;
+    }
+
+    /* -------------------------------------------------
+        Footer
+       ------------------------------------------------- */
+    .footer-title {
+        font-size: 40px;
+    }
+
+    .footer-text,
+    .footer-link {
+        font-size: 34px;
+    }
+
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        font-size: 30px;
+    }
+
+    /* -------------------------------------------------
+        Popup
+       ------------------------------------------------- */
+    .popup__content span:nth-child(1) {
+        font-size: 80px;
+    }
+
+    .popup__content span:nth-child(2),
+    .btn-close {
+        font-size: 54px;
+    }
+
+    .popup__content_form input,
+    .popup__content_form input::placeholder {
+        font-size: 50px;
+    }
+
+    .btn-popup {
+        font-size: 62px;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Top info
+       ------------------------------------------------- */
+    .page-second-top-info span:nth-child(1) {
+        font-size: 56px;
+    }
+
+    .page-second-top-info span:nth-child(3) {
+        font-size: 60px;
+    }
+
+    .page-second-top-info span:nth-child(3)::before {
+        transform: scale(3);
+        top: 15px;
+        left: -5%;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Need know
+       ------------------------------------------------- */
+    .need-know {
+        padding-bottom: 27.5%;
+    }
+
+    .need-know-title {
+        font-size: 80px;
+    }
+
+    .need-know__desc {
+        width: 65%;
+        margin-bottom: 4%;
+    }
+
+    .need-know__desc span {
+        font-size: 54px;
+    }
+
+    .need-know__desc span::before {
+        width: 63px;
+        height: 63px;
+        left: -95px;
+    }
+
+    .need-know .one-time-offer {
+        padding-top: 4%;
+        padding-bottom: 5%;
+        font-size: 76px;
+    }
+
+    .need-know .one-time-offer ~ span:nth-child(4) {
+        font-size: 70px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Offer
+       ------------------------------------------------- */
+    .offer .one-time-offer {
+        padding: 0 2%;
+        font-size: 70px;
+        margin-bottom: 4%;
+    }
+
+    .offer h2 {
+        font-size: 100px;
+    }
+
+    .offer h3 {
+        font-size: 72px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 55px;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 96px;
+    }
+
+    .offer .btn-link a {
+        font-size: 80px;
+    }
+
+    .offer a:nth-child(9) {
+        font-size: 38px;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Banner
+       ------------------------------------------------- */
+    .page-third-banner {
+        padding-top: 5%;
+    }
+
+    .page-third-banner h1 {
+        font-size: 132px;
+        margin-bottom: 7%;
+    }
+
+    .page-third-banner h1 img {
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Offer
+       ------------------------------------------------- */
+    .page-third-offer h2 {
+        font-size: 88px;
+    }
+
+    .page-third-offer span:nth-child(3) {
+        font-size: 84px;
+    }
+
+    .page-third-offer h3 {
+        padding: 0 12%;
+    }
+
+    .page-third-offer span:nth-child(5) {
+        font-size: 56px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 76px;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 112px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Banner
+       ------------------------------------------------- */
+    .page-fourth-banner h1 {
+        font-size: 160px;
+    }
+
+    .page-fourth-banner h2 {
+        font-size: 84px;
+    }
+
+    .page-fourth-banner span {
+        font-size: 55px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Video
+       ------------------------------------------------- */
+    .video h1 {
+        font-size: 86px;
+    }
+
+    .video .btn-link a {
+        padding-top: 5%;
+        padding-bottom: 4%;
+        font-size: 96px;
+    }
+}
+
+@media (min-width: 5120px) {
+    /* -------------------------------------------------
+	    Header
+       ------------------------------------------------- */
+    .header__list li + li {
+        margin-left: 120px;
+    }
+
+    .header__list a {
+        font-size: 56px;
+    }
+
+    .header__list li:last-child a,
+    .header__btn-menu {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    /* -------------------------------------------------
+        Top info
+       ------------------------------------------------- */
+    .top-info span {
+        font-size: 80px;
+    }
+
+    /* -------------------------------------------------
+        Banner
+       ------------------------------------------------- */
+    .banner h1 {
+        font-size: 140px;
+    }
+
+    .banner h3 {
+        font-size: 68px;
+    }
+
+    .btn-link a {
+        font-size: 100px;
+    }
+
+    /* -------------------------------------------------
+        Event info
+       ------------------------------------------------- */
+    .event-info__desc span:nth-child(1) {
+        font-size: 60px;
+    }
+
+    .event-info__desc span:nth-child(2) {
+        font-size: 58px;
+    }
+
+    /* -------------------------------------------------
+        Speakers
+       ------------------------------------------------- */
+    .speakers__item-speaker-info span:nth-child(1) {
+        font-size: 60px;
+    }
+
+    .speakers__item-speaker-info span:nth-child(2) {
+        font-size: 56px;
+    }
+
+    /* -------------------------------------------------
+        Sidebar
+       ------------------------------------------------- */
+    .sidebar {
+        height: 1565px;
+    }
+
+    .sidebar span:nth-child(2) {
+        margin-top: -118px;
+        font-size: 44px;
+    }
+
+    .sidebar span:nth-child(3) {
+        font-size: 58px;
+    }
+
+    .sidebar span:nth-child(4) {
+        font-size: 42px;
+    }
+
+    .sidebar .btn-link a {
+        font-size: 52px;
+    }
+
+    /* -------------------------------------------------
+        About
+       ------------------------------------------------- */
+    .about__title span {
+        font-size: 74px;
+    }
+
+    .about__desc p {
+        font-size: 52px;
+    }
+
+    /* -------------------------------------------------
+        Question №1
+       ------------------------------------------------- */
+    .question__title span:nth-child(1) {
+        font-size: 108px;
+    }
+
+    .question__title span:nth-child(2) {
+        font-size: 132px;
+    }
+
+    .question-first span:nth-child(3) {
+        font-size: 62px;
+    }
+
+    /* -------------------------------------------------
+        Answer №1
+        ------------------------------------------------- */
+    .answer-title {
+        font-size: 90px;
+    }
+
+    .answer p {
+        font-size: 60px;
+    }
+
+    .answer-first li {
+        font-size: 54px;
+    }
+
+    /* -------------------------------------------------
+        Question №2
+       ------------------------------------------------- */
+    .question p {
+        font-size: 53px;
+    }
+
+    /* -------------------------------------------------
+        Answer №2
+       ------------------------------------------------- */
+    .answer-second .answer-title__answer-second {
+        font-size: 100px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(1),
+    .answer-second__blocks-item__desc p {
+        font-size: 40px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) {
+        font-size: 70px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(3) {
+        font-size: 44px;
+    }
+
+    .answer-second__blocks-item__title__inner > span:nth-child(2) span,
+    .answer-second__blocks-item__desc > span,
+    .answer-second__blocks-item__desc p span {
+        font-size: 42px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(3) {
+        font-size: 70px;
+    }
+
+    .answer-second__blocks ~ span:nth-child(4) {
+        font-size: 100px;
+    }
+
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results span {
+        font-size: 50px;
+    }
+
+    /* -------------------------------------------------
+        Answer №3
+       ------------------------------------------------- */
+    .answer-third .answer-title__answer-third {
+        font-size: 86px;
+    }
+
+    .answer-third__blocks-item > span {
+        font-size: 64px;
+    }
+
+    .answer-third__blocks-item__content span {
+        font-size: 52px;
+    }
+
+    .answer-third__blocks-item__question {
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+    }
+
+    .answer-third__blocks-item__question span {
+        font-size: 84px;
+    }
+
+    .answer-third__blocks-item__question span:nth-child(1) {
+        font-size: 52px;
+    }
+
+    .answer-third__blocks ~ span:nth-child(3) {
+        font-size: 100px;
+    }
+
+    .answer-third__blocks ~ span {
+        font-size: 54px;
+    }
+
+    .attend {
+        font-size: 66px;
+    }
+
+    /* -------------------------------------------------
+        Answer №4
+       ------------------------------------------------- */
+    .answer-fourth .answer__list li {
+        font-size: 56px;
+    }
+
+    .date {
+        font-size: 68px;
+    }
+
+    /* -------------------------------------------------
+        Answer №5
+       ------------------------------------------------- */
+    .answer-fifth .answer__list li {
+        font-size: 54px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q. title
+       ------------------------------------------------- */
+    .faq-title h2 {
+        font-size: 108px;
+    }
+
+    /* -------------------------------------------------
+        F.A.Q.
+       ------------------------------------------------- */
+    .faq-question, .faq-answer {
+        font-size: 52px;
+    }
+
+    .faq span:nth-child(15) {
+        font-size: 100px;
+    }
+
+    /* -------------------------------------------------
+        Footer
+       ------------------------------------------------- */
+    .footer-title {
+        font-size: 50px;
+    }
+
+    .footer-text,
+    .footer-link {
+        font-size: 42px;
+    }
+
+    .footer__info span,
+    .footer__info span:nth-child(5) a {
+        font-size: 40px;
+    }
+
+    /* -------------------------------------------------
+        Popup
+       ------------------------------------------------- */
+    .popup__content span:nth-child(1) {
+        font-size: 98px;
+    }
+
+    .popup__content span:nth-child(2),
+    .btn-close {
+        font-size: 67px;
+    }
+
+    .popup__content_form input,
+    .popup__content_form input::placeholder {
+        font-size: 62px;
+    }
+
+    .btn-popup {
+        font-size: 84px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Top info
+       ------------------------------------------------- */
+    .page-second-top-info span:nth-child(1) {
+        font-size: 76px;
+    }
+
+    .page-second-top-info span:nth-child(3) {
+        font-size: 80px;
+    }
+
+    .page-second-top-info span:nth-child(3)::before {
+        transform: scale(4);
+        top: 20px;
+        left: -5%;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Need know
+       ------------------------------------------------- */
+    .need-know-title {
+        font-size: 106px;
+    }
+
+    .need-know__desc {
+        width: 70%;
+    }
+
+    .need-know__desc span {
+        font-size: 72px;
+    }
+
+    .need-know__desc span::before {
+        width: 84px;
+        height: 84px;
+        top: -15px;
+        left: -120px;
+    }
+
+    .need-know .one-time-offer {
+        font-size: 94px;
+    }
+
+    .need-know .one-time-offer ~ span:nth-child(4) {
+        font-size: 88px;
+    }
+
+    /* -------------------------------------------------
+        Page №2: Offer
+       ------------------------------------------------- */
+    .offer .one-time-offer,
+    .offer h3 {
+        font-size: 90px;
+    }
+
+    .offer h2 {
+        font-size: 126px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 70px;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 104px;
+    }
+
+    .offer .btn-link a {
+        font-size: 90px;
+    }
+
+    .offer a:nth-child(9) {
+        font-size: 42px;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Banner
+       ------------------------------------------------- */
+    .page-third-banner h1 {
+        font-size: 164px;
+    }
+
+    /* -------------------------------------------------
+        Page №3: Offer
+       ------------------------------------------------- */
+    .page-third-offer h2 {
+        font-size: 110px;
+    }
+
+    .page-third-offer span:nth-child(3) {
+        font-size: 100px;
+    }
+
+    .page-third-offer span:nth-child(5) {
+        font-size: 70px;
+    }
+
+    .offer span:nth-child(6) {
+        font-size: 92px;
+    }
+
+    .offer span:nth-child(7) {
+        font-size: 130px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Banner
+       ------------------------------------------------- */
+    .page-fourth-banner h1 {
+        font-size: 200px;
+    }
+
+    .page-fourth-banner h2 {
+        font-size: 110px;
+    }
+
+    .page-fourth-banner span {
+        font-size: 70px;
+    }
+
+    /* -------------------------------------------------
+        Page №4: Video
+       ------------------------------------------------- */
+    .video h1 {
+        font-size: 106px;
+    }
+}

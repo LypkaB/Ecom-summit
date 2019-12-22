@@ -1,37 +1,46 @@
-$(function () {
+$(function() {
     /*<----- Play video ----->*/
     $('.banner__video-btn-play').click(function() {
         $('.banner__video img, .banner__video-btn-play').css('display', 'none');
         $('.banner__video-player').css('display', 'block');
-
         $('iframe').prop('src', 'https://www.youtube.com/embed/GncgmDhCu8Y?;autoplay=1');
     });
 
     /*<----- Pop-up window ----->*/
-    $('.btn-get, .sidebar a, .btn-sticky').on('click', function () {
-        $('.overlay').fadeIn('fast');
+    $('.btn-link-popup, .sidebar a, .btn-sticky').on('click', function(e) {
+        e.preventDefault();
+        $('.popup').fadeIn('fast');
+        return false;
     });
 
-    $('.btn-close').on('click', function () {
-        $('.overlay').hide();
+    $('.btn-close').on('click', function(e) {
+        e.preventDefault();
+        $('.popup').fadeOut();
+        return false;
+    });
+
+    $(document).click(function(e) {
+        if ((!$(e.target).closest('.popup .popup__content').length)) {
+            $('.popup').fadeOut();
+        }
     });
 
     /*<----- Show popup when user leave ----->*/
     $(document).mouseleave(function() {
-        $('.overlay-leave').fadeIn('fast');
+        $('.popup-leave').fadeIn('fast');
+    });
+
+    $('.popup-leave .btn-close').on('click', function () {
+        $('.popup-leave').remove();
     });
 
     $(document).click(function(e) {
-        if (($('.overlay-leave').is(':visible')) && (!$(e.target).closest('.popup-leave').length)) {
-            $('.overlay-leave').remove();
+        if ((!$(e.target).closest('.popup-leave .popup__content_leave').length)) {
+            $('.popup-leave').remove();
         }
     });
 
-    $('.btn-leave-close').on('click', function () {
-        $('.overlay-leave').remove();
-    });
-
-    /*<----- Show navigation menu ----->*/
+    /*<----- Navigation menu ----->*/
     $('.header__btn-menu').on('click', function() {
         $('.header__list').slideToggle();
     });
@@ -39,13 +48,13 @@ $(function () {
     /*<----- Change link in checkbox ----->*/
     $('#first-check').change(function() {
         if ($(this).prop('checked') == true) {
-            $('.product .btn-get a').attr('href', 'https://google.com');
+            $('.order-form .btn-link a').attr('href', 'https://google.com');
         }
     });
 
     $('#second-check').change(function() {
         if ($(this).prop('checked') == true) {
-            $('.product .btn-get a').attr('href', 'https://youtube.com');
+            $('.order-form .btn-link a').attr('href', 'https://youtube.com');
         }
     });
 
