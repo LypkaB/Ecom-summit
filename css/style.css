@@ -2777,6 +2777,14 @@ footer {
         margin-top: 10px;
     }
 
+    .answer-first__info-screens {
+        justify-content: center;
+    }
+
+    .answer-first__img {
+        flex-basis: 55%;
+    }
+
     /* -------------------------------------------------
 	    Answer №2
        ------------------------------------------------- */
