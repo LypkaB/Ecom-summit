@@ -870,6 +870,9 @@ header {
 
 .results__carousel {
     display: none;
+    width: 330px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .results__carousel_item {
@@ -877,15 +880,13 @@ header {
     margin-bottom: 40px;
 }
 
+.results__carousel_item-img {
+    width: 100%;
+}
+
 .results__carousel_item,
 .slick-dots {
     margin-bottom: 40px;
-}
-
-.results__carousel_item-img {
-    width: 350px;
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 .slick-dots {
@@ -2538,6 +2539,17 @@ footer {
     .results__carousel {
         display: block;
     }
+
+    /* -------------------------------------------------
+        Proof
+       ------------------------------------------------- */
+    .proof {
+        padding: 50px 0 10px;
+    }
+
+    .proof-img {
+        display: none;
+    }
 }
 
 @media (max-width: 567px) {
@@ -3208,6 +3220,13 @@ footer {
 }
 
 @media (max-width: 360px) {
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results__carousel {
+        width: 250px;
+    }
+
     /* -------------------------------------------------
         Page №2: Offer
        ------------------------------------------------- */
