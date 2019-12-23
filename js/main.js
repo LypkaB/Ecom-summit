@@ -26,19 +26,19 @@ $(function() {
     });
 
     /*<----- Show popup when user leave ----->*/
-    // $(document).mouseleave(function() {
-    //     $('.popup-leave').fadeIn('fast');
-    // });
-    //
-    // $('.popup-leave .btn-close').on('click', function () {
-    //     $('.popup-leave').remove();
-    // });
-    //
-    // $(document).click(function(e) {
-    //     if ((!$(e.target).closest('.popup-leave .popup__content_leave').length)) {
-    //         $('.popup-leave').remove();
-    //     }
-    // });
+    $(document).mouseleave(function() {
+        $('.popup-leave').fadeIn('fast');
+    });
+
+    $('.popup-leave .btn-close').on('click', function () {
+        $('.popup-leave').remove();
+    });
+
+    $(document).click(function(e) {
+        if ((!$(e.target).closest('.popup-leave .popup__content_leave').length)) {
+            $('.popup-leave').remove();
+        }
+    });
 
     /*<----- Navigation menu ----->*/
     $('.header__btn-menu').on('click', function() {
