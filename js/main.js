@@ -66,4 +66,10 @@ $(function() {
         }, 900);
         return false;
     });
+
+    /*<----- Carousel for section «Results» ----->*/
+    $('.results__carousel').slick({
+        arrows: false,
+        dots: true
+    });
 });

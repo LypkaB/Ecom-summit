@@ -868,6 +868,54 @@ header {
     text-align: center;
 }
 
+.results__carousel {
+    display: none;
+}
+
+.results__carousel_item {
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.results__carousel_item,
+.slick-dots {
+    margin-bottom: 40px;
+}
+
+.results__carousel_item-img {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.slick-dots li + li {
+    margin-left: 10px;
+}
+
+.slick-dots button {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    outline: none;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #6739ba;
+}
+
 /* -------------------------------------------------
 	Answer №3
    ------------------------------------------------- */
@@ -2472,6 +2520,23 @@ footer {
        ------------------------------------------------- */
     .video h1 {
         padding: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    /* -------------------------------------------------
+        Results
+       ------------------------------------------------- */
+    .results {
+        padding-top: 30px;
+    }
+
+    .results__screens {
+        display: none;
+    }
+
+    .results__carousel {
+        display: block;
     }
 }
 
