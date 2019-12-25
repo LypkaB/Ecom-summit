@@ -72,4 +72,8 @@ $(function() {
         arrows: false,
         dots: true
     });
+
+    if ($(window).width() <= 1366 && $(window).width() >= 992) {
+        $('meta[name=viewport]').attr('content','user-scalable=no, width=device-width, initial-scale=1, shrink-to-fit=no');
+    }
 });
