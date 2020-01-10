@@ -88,6 +88,15 @@ img {
 }
 
 /* -------------------------------------------------
+	ClickBank Trust Badge script
+   ------------------------------------------------- */
+.cbtb .trust-badge.header {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------
 	Header
    ------------------------------------------------- */
 header {
@@ -1222,7 +1231,8 @@ footer {
     color: #797979;
 }
 
-.footer__info span:nth-child(4) {
+.footer__info span:nth-child(4),
+.footer__info span:nth-child(5) {
     margin-bottom: 20px;
 }
 
@@ -2267,7 +2277,7 @@ footer {
         width: 100%;
         position: absolute;
         z-index: 10;
-        top: 69px;
+        top: 103px;
         left: 0;
         text-align: center;
     }
@@ -2673,6 +2683,12 @@ footer {
 }
 
 @media (max-width: 475px) {
+    /* -------------------------------------------------
+        Header
+       ------------------------------------------------- */
+    .header__list {
+        top: 70px;
+    }
     /* -------------------------------------------------
         Banner
        ------------------------------------------------- */
