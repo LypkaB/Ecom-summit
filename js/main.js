@@ -46,14 +46,8 @@ $(function() {
     });
 
     /*<----- Change link in checkbox ----->*/
-    $('#first-check').change(function() {
-        if ($(this).prop('checked') == true) {
-            $('.order-form .btn-link a').attr('href', 'https://google.com');
-        }
-    });
-
     $('#second-check').change(function() {
-        if ($(this).prop('checked') == true) {
+        if ($(this).attr('checked', 'unchecked')) {
             $('.order-form .btn-link a').attr('href', 'https://youtube.com');
         }
     });

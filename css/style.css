@@ -1643,7 +1643,22 @@ footer {
     display: none;
 }
 
-.order-box__table label::before {
+#first-check + label::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    background-image: url('../images/checkbox-check.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: 85%;
+    background-size: 85%;
+    background-color: black;
+    background-position: center;
+    cursor: pointer;
+}
+
+#second-check + label::before {
     content: '';
     display: inline-block;
     width: 25px;
@@ -1652,7 +1667,7 @@ footer {
     cursor: pointer;
 }
 
-.order-box__table input[type="checkbox"]:checked + label::before {
+#second-check:checked + label::before {
     background-image: url('../images/checkbox-check.svg');
     background-repeat: no-repeat;
     -webkit-background-size: 85%;
