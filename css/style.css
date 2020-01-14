@@ -1361,11 +1361,6 @@ footer {
     justify-content: center;
 }
 
-.page-first-container {
-    max-width: 1140px;
-    position: relative;
-}
-
 .page-first-header .logo {
     width: 150px;
     max-width: 100%;
