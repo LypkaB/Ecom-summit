@@ -1355,6 +1355,10 @@ footer {
 /* -------------------------------------------------
 	Page №1: Header
    ------------------------------------------------- */
+.order-box .container {
+    position: relative;
+}
+
 .page-first-header .header__wrap {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1683,8 +1687,8 @@ footer {
 
 .order-box-img {
     position: absolute;
-    top: 7%;
-    right: -120px;
+    top: 10%;
+    right: -125px;
 }
 
 /* -------------------------------------------------
