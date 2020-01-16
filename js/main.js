@@ -30,13 +30,23 @@ $(function() {
         $('.popup-leave').fadeIn('fast');
     });
 
-    $('.popup-leave .btn-close').on('click', function () {
+    $('.popup-leave .btn-close').on('click', function() {
         $('.popup-leave').remove();
     });
 
     $(document).click(function(e) {
         if ((!$(e.target).closest('.popup-leave .popup__content_leave').length)) {
             $('.popup-leave').remove();
+        }
+    });
+
+    /*<----- «Thank you» message after send email ----->*/
+    $('input[type="Email"]').keyup(function() {
+        if ($(this).val() != '') {
+            $('.btn-popup').on('click', function() {
+                $('.btn-popup, .btn-close').css('display', 'none');
+                $('.popup__content-thanks-msg').css('display', 'inline-block');
+            });
         }
     });
 
