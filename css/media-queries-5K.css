@@ -346,15 +346,15 @@
        ------------------------------------------------- */
     .popup__content {
         width: 70%;
-        padding: 4% 3%;
+        padding: 4% 3% 2%;
     }
 
-    .popup__content span:nth-child(1) {
+    .popup__content > span:nth-child(1) {
         font-size: 40px;
         margin-bottom: 4%;
     }
 
-    .popup__content span:nth-child(2) {
+    .popup__content > span:nth-child(2) {
         font-size: 26px;
         line-height: 2;
         padding: 0 14%;
@@ -368,12 +368,17 @@
     .popup__content_form input {
         width: 97%;
         padding: 2.5% 3% 2%;
-        margin-bottom: 4%;
+        margin-bottom: 3%;
     }
 
     .popup__content_form input,
     .popup__content_form input::placeholder {
         font-size: 24px;
+    }
+
+    .popup__content-thanks-msg {
+        padding: 1.5% 3% 1%;
+        font-size: 26px;
     }
 
     .btn-popup {
@@ -1199,11 +1204,11 @@
     /* -------------------------------------------------
         Popup
        ------------------------------------------------- */
-    .popup__content span:nth-child(1) {
+    .popup__content > span:nth-child(1) {
         font-size: 52px;
     }
 
-    .popup__content span:nth-child(2),
+    .popup__content > span:nth-child(2),
     .btn-close {
         font-size: 34px;
     }
@@ -1211,6 +1216,11 @@
     .popup__content_form input,
     .popup__content_form input::placeholder {
         font-size: 32px;
+    }
+
+    .popup__content-thanks-msg {
+        font-size: 36px;
+        border: 3px solid red;
     }
 
     .btn-popup {
@@ -1705,11 +1715,11 @@
     /* -------------------------------------------------
         Popup
        ------------------------------------------------- */
-    .popup__content span:nth-child(1) {
+    .popup__content > span:nth-child(1) {
         font-size: 80px;
     }
 
-    .popup__content span:nth-child(2),
+    .popup__content > span:nth-child(2),
     .btn-close {
         font-size: 54px;
     }
@@ -1717,6 +1727,15 @@
     .popup__content_form input,
     .popup__content_form input::placeholder {
         font-size: 50px;
+    }
+
+    .popup__content_form input,
+    .btn-popup {
+        border-radius: 10px;
+    }
+
+    .popup__content-thanks-msg {
+        font-size: 54px;
     }
 
     .btn-popup {
@@ -2157,11 +2176,11 @@
     /* -------------------------------------------------
         Popup
        ------------------------------------------------- */
-    .popup__content span:nth-child(1) {
+    .popup__content > span:nth-child(1) {
         font-size: 98px;
     }
 
-    .popup__content span:nth-child(2),
+    .popup__content > span:nth-child(2),
     .btn-close {
         font-size: 67px;
     }
@@ -2169,6 +2188,10 @@
     .popup__content_form input,
     .popup__content_form input::placeholder {
         font-size: 62px;
+    }
+
+    .popup__content-thanks-msg {
+        font-size: 64px;
     }
 
     .btn-popup {
