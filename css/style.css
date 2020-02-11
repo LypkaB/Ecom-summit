@@ -296,6 +296,11 @@ header {
     border: none;
 }
 
+.page-home-banner .banner__video-player {
+    display: block;
+    margin-bottom: 30px;
+}
+
 /* -------------------------------------------------
 	Event info
    ------------------------------------------------- */
