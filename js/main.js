@@ -1,9 +1,13 @@
-$(function() {
+jQuery(document).ready(function($) {
     /*<----- Play video ----->*/
-    $('.banner__video-btn-play').click(function() {
+    $('.banner__video-btn-play').on('click', function() {
         $('.banner__video img, .banner__video-btn-play').css('display', 'none');
         $('.banner__video-player').css('display', 'block');
-        $('iframe').prop('src', 'https://www.youtube.com/embed/GncgmDhCu8Y?;autoplay=1');
+        $('iframe').prop('src', 'https://www.youtube.com/embed/GncgmDhCu8Y?autoplay=1');
+    });
+
+    jQuery(window).ready(function() {
+        $('iframe').prop('src', 'https://www.youtube.com/embed/GncgmDhCu8Y?autoplay=1');
     });
 
     /*<----- Pop-up window ----->*/
