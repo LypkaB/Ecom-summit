@@ -250,7 +250,7 @@
                 <div class="container__section">
                     <h2 class="question__title">
                         <span>QUESTION #1: Let's Cut To The Real Problem Here...</span>
-                        <span>Why Is This Amazing 1 Day Summit Only $1</span>
+                        <span>Why Is This Amazing 2-Day Summit Only $1?</span>
                     </h2>
 
                     <div class="question-first-img">
@@ -304,19 +304,28 @@
 
                     <ul class="answer__list">
                         <li>
-                            Being VIRTUAL - <b>We don't have hard-costs, travel or hotels</b> - we have passed on these savings to YOU...
+                            Being VIRTUAL - <b>We don't have hard-costs, travel or hotels</b> - we have passed on these
+                            savings to YOU...
                         </li>
                         <li>
-                            <b>Being VIRTUAL Means NO Overhead So It’s Only $1</b> - Access this live summit from anywhere in the world and cheaper than a cup of coffee! This leaves you with no reasons to NOT attend.
+                            ​<b>Being VIRTUAL & Only $1</b> - Access this live summit from anywhere in the world and
+                            cheaper than a cup of coffee this leaves you with no reasons to NOT attend.
                         </li>
                         <li>
-                            <b>Where’s Your Excuse With $1?</b> - There should be absolutely zero excuses for you not to join us live. If you don't have a dollar to sign up, you more than likely shouldn't be running a business in the first place... how's THAT for accountability?
+                            ​<b>Being A Single $1</b> - There should be absolutely zero excuses for you not to register.
+                            If you don't have a dollar to sign up, you more than likely shouldn't be running a business
+                            in the first place... hows THAT for accountability?
                         </li>
                         <li>
-                            <b>Our SELFISH Reasons</b> - Listen, down the line we want to help you invest into our other programs and what is the best way to do that except providing you with immaculate training & results at the same time...
+                            ​<b>Our SELFISH Reason</b> - Listen, down the line we want to help you invest into our other
+                            programs and whats the best way to do that except providing you with immaculate training &
+                            results at the same time...
                         </li>
                         <li>
-                            <b>Being Just $1 We Remove ALL The Risk For You</b> - Imagine having someone come up to you, 100% RISK FREE, and asking for a dollar and they will share how they build and scale their online eCommerce businesses and how they’ve done it without ever needing any previous experience... would you want in on the action? Well, this is your chance and you can finally do so!
+                            <b>​Being Just $1 - NO RISK</b> - Imagine having someone come up to you, 100% RISK FREE, and
+                            asking for a dollar and they will show you how to build and scale an online
+                            business in without ever needing any previous experience... would you want in on the action? Well, this is your
+                            chance and you can finally do so!
                         </li>
                     </ul>
 
@@ -356,7 +365,7 @@
                 <div class="container__section">
                     <h2 class="question__title">
                         <span>QUESTION #2:</span>
-                        <span>Who Are The Experts Teaching This 8 Hour Virtual Summit?</span>
+                        <span>Who Are The Experts Teaching This 7 Hour Virtual Training?</span>
                     </h2>
 
                     <p>
@@ -368,10 +377,10 @@
                         you their insider tactics and strategies that have never been shared before.
                     </p>
                     <p>
-                        If you are looking to learn how to start your own eCommerce business and scale it…
+                        If you want to start, launch, or scale a digital business FAST...
                     </p>
                     <p>
-                        … attending becomes a no brainer
+                        ...this is a no-brainer!
                     </p>
                 </div>
                 <!-- /.container__section -->
@@ -575,11 +584,16 @@
                 <div class="container__section">
                     <h2 class="question__title">
                         <span>QUESTION #3:</span>
-                        <span>What Will Be Taught During The #Everything eCom Summit?</span>
+                        <span>What Will I Learn During The #Everything eCom Summit?</span>
                     </h2>
 
                     <p>
-                        The one simple goal to the Everything eCom Summit is to get you up and running with your first eCommerce business. We are going to cover absolutely everything you need to know and leave no stone unturned in order to help build and start your first online business (if you’ve never done it before).
+                        What Will I Learn During The Everything eCom Summit?
+                    </p>
+                    <p>
+                        The one simple goal to the Everything eCom Summit is to get you up and running with your first
+                        turn key eCommerce business. We are going to cover absolutely everything you need to know and
+                        leave no stone unturned in order to help build and scale your business.
                     </p>
                     <p>
                         What you are going to learn has the power to transform and change your life completely.
@@ -594,16 +608,20 @@
             <section class="answer answer-third">
                 <div class="container__section">
                     <span class="answer-title answer-title__answer-third">
-                        Most people will attend and do nothing. We WANT YOU to attend, take notes, and most importantly we want you to implement what you learn so you can see the fruits of your labor!
+                        Most people will attend and do nothing. We WANT YOU to attend, take notes, and most importantly
+                        we want you to implement the same day to see instant results!
                     </span>
 
                     <div class="answer-third__blocks">
                         <div class="answer-third__blocks-item">
-                            <span>#1 - Setting Yourself Up For The Long Term</span>
+                            <span>#1 - Setting Yourself Up For Success</span>
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    You’ll learn exactly how to take your current skills, no matter what they are, and use them to become a true business owner operating an eCommerce business that is a force to be reckoned with. We all have one goal and we all have 1 thing in common that makes us successful. What are they? You’ll see it in this incredible session.
+                                    You’ll learn exactly how to take your current skills from a working employee and
+                                    use them to become your own boss. We all have one goal and we all have 1 thing in
+                                    common that makes us successful. What are they? You’ll see it in this incredible
+                                    session.
                                 </span>
 
                                 <div>
@@ -615,11 +633,13 @@
                         <!-- /.answer-third__blocks-item -->
 
                         <div class="answer-third__blocks-item">
-                            <span>#2 - The 7 Figure Dollar Product Research Blueprint</span>
+                            <span>#2 - The Million Dollar Product Research Blueprint</span>
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    Learn exactly how to find highly lucrative products in record breaking time using our proven strategies. This is how we easily locate and extract winning products from what seems to be ‘over saturated’ markets.
+                                    Learn exactly how to find highly profitable products in record breaking time using
+                                    our proven strategies. Now you can easily locate and extract winning products from
+                                    what seems to be ‘over saturated’ markets.
                                 </span>
 
                                 <div>
@@ -649,11 +669,14 @@
                         <!-- /.answer-third__blocks-item -->
 
                         <div class="answer-third__blocks-item">
-                            <span>#4 - Automating Your Entire Business</span>
+                            <span>#4 - Automating The Entire Business</span>
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    The goal is to sit back and watch the revenue start to roll in day in and day out. You’ll learn the exact automation process that we’ve developed that allows us to track everything without us ever needing to be in the day to day activities so we can truly enjoy the time freedom we’ve been seeking.
+                                    The goal is to sit back and watch the profit come into your bank account day in
+                                    and day out. You’ll learn the exact automation process that will easily have your
+                                    entire ecommerce business on track without you ever needing to be in the day to day
+                                    activities so you can truly enjoy the time freedom you’ve been seeking.
                                 </span>
 
                                 <div>
@@ -693,12 +716,15 @@
 
                         <div class="answer-third__blocks-item">
                             <span>
-                                #6 - The “Micro-Product-Funnel”: How We Create 6 Figure Funnels
+                                #6 - The “mico-product-funnel”: How TO Create $100,000 Profit Funnels In Under 14 Days
                             </span>
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    One of the closest kept secrets is how to be able to create highly profitable product funnels and siphon BUYER traffic through it. Most people aren’t aware you can even create funnels without spending hundreds of dollars per month, we are going to show you how you can do it 100% FREE…
+                                    One of the closest kept secrets is how to be able to create highly profitable
+                                    product funnels and siphon BUYER traffic through it, Most people aren’t aware you
+                                    can even create funnels without spending hundreds of dollars per month, we are going
+                                    to show you how you can do it 100% FREE…
                                 </span>
 
                                 <div>
@@ -729,11 +755,13 @@
                         <!-- /.answer-third__blocks-item -->
 
                         <div class="answer-third__blocks-item">
-                            <span>#8 - The Buyers Mentality</span>
+                            <span>#8 - How To Get ANYONE To Buy Anything From You</span>
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    Being able to get someone to purchase from you is getting harder and harder. Learn the exact purchase psychological techniques that will have buyers ready with their credit card in hand ready to buy WHATEVER you have at that given moment.
+                                    Being able to get someone to purchase from you is getting harder and harder.
+                                    Learn the exact purchase psychological techniques that will have buyers ready with
+                                    their credit card in hand ready to buy WHATEVER you have at that given moment.
                                 </span>
 
                                 <div>
@@ -767,7 +795,10 @@
 
                             <div class="answer-third__blocks-item__content">
                                 <span>
-                                    This will be the EXACT roadmap that has allowed us to go from struggling to building our FIRST thriving business in record breaking time. We will reveal the 5 step process to rinse and repeat in the eCommerce world that will allow you build a real eCommerce businesses without all the hassles of programming and other mundane tasks.
+                                    This will be the EXACT roadmap that will allow you to go from struggling to
+                                    building your FIRST thriving business in record breaking time. You will learn the
+                                    5 step process to rinse and repeat in the eCommerce world that will allow you to
+                                    become financially independent in record breaking time.
                                 </span>
 
                                 <div>
@@ -779,6 +810,13 @@
                         <!-- /.answer-third__blocks-item -->
                     </div>
                     <!-- /.answer-third__blocks -->
+
+                    <span>When Day #2 Is Over...</span>
+
+                    <span>
+                        ...by the end of Day #2 - you’ll be empowered and prepared for the ENTIRE business. Given the
+                        resources & tools that we share, you’ll actually be able to finally LAUNCH your entire business.
+                    </span>
 
                     <span>YES - I'm Ready To Save My Seat...</span>
 
@@ -834,7 +872,7 @@
                         structured the event to make it convenient for your life and schedule.
                     </p>
 
-                    <span class="date">Date - February 29th at 8:00 am EST (5AM PST)</span>
+                    <span class="date">Dates - (October 12th & 13th, 2018) 10:00 am (EDT)</span>
 
                     <div class="btn-link">
                         <a href="http://everythingecomsummit.com/checkout">Get my ticket - <span>just $1</span></a>
@@ -866,25 +904,31 @@
             <!-- Answer №5 -->
             <div class="answer answer-fifth">
                 <div class="container__section">
-                    <p>There are multiple types of people we built this for:</p>
+                    <p>There are 4 types of people we built this for:</p>
 
                     <ul class="answer__list">
                         <li>
-                            If you’re not seeing results - You’ve been trying to build an online business for years but you aren't seeing the results you're looking for. We want to lend you a helping hand...
+                            If you’re not seeing results - You’ve been trying to build an online business for years
+                            but you aren't seeing the results you're looking for. We want to give you a solution...
                         </li>
                         <li>
-                            If you’re looking for a change - If you want to move from employee to entrepreneur and see results, this is something you want to attend…
+                            If you’re looking for a change - If you want to move from employee to entrepreneur and
+                            get fast results, this is for you…
                         </li>
                         <li>
-                            If you're looking for growth - If you’re a business owner who already has an online business and want to scale...you're in the right place
+                            ​If you're looking for growth - If you’re a business owner who already has an online
+                            business and want to scale...you're in the right place
                         </li>
                         <li>
-                            If you’re looking for a side business - Learn to build a thriving ecommerce business you can do on the side with our top training methods and tools. You will get both at the eCom Virtual Summit…
+                            If you’re looking for a side business - Learn to build a profitable business you can
+                            do on the side with our top training methods and tools. You can get both at the eCom
+                            Virtual Summit...
                         </li>
                     </ul>
 
                     <p>
-                        Are you any one of those? If so, we’re glad - because we designed this virtual summit specifically for you!
+                        Are you any one of those four? If so, we’re glad - because we designed this 2-day virtual
+                        summit specifically for you.
                     </p>
                 </div>
                 <!-- /.container__section -->
@@ -935,7 +979,7 @@
 
                     <hr class="faq-separator">
 
-                    <span class="date">Date - February 29th at 8:00 am EST (5AM PST)</span>
+                    <span class="date">Dates - (October 12th & 13th, 2018) 10:00 am (EDT)</span>
 
                     <div class="btn-link">
                         <a href="http://everythingecomsummit.com/checkout">Get my ticket - <span>just $1</span></a>
@@ -1046,7 +1090,7 @@
                         </ul>
                     </div>
                     <!-- /.footer__links-social -->
-                    
+
                     <div class="footer__links-support">
                         <span class="footer-title">Support</span>
                         <a href="mailto:support@ecomdudes.com" class="footer-link">Contact us</a>

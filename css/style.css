@@ -1179,8 +1179,8 @@ footer {
 }
 
 .footer__desc {
-    -ms-flex-preferred-size: 38%;
-    flex-basis: 38%;
+    -ms-flex-preferred-size: 27%;
+    flex-basis: 27%;
 }
 
 .footer-title {
@@ -1205,9 +1205,14 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-preferred-size: 65%;
+    flex-basis: 65%;
+}
+
+/*.footer__links-about {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
-}
+}*/
 
 .footer-link {
     margin-bottom: 20px;
