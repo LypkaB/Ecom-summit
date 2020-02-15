@@ -1209,11 +1209,6 @@ footer {
     flex-basis: 65%;
 }
 
-/*.footer__links-about {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-}*/
-
 .footer-link {
     margin-bottom: 20px;
 }
@@ -2017,6 +2012,13 @@ footer {
     font-size: 30px;
     font-weight: 800;
     color: #c52a2a;
+}
+
+/* -------------------------------------------------
+	Page №3: FAQ
+   ------------------------------------------------- */
+.page-third-faq {
+    padding: 35px 0 0;
 }
 
 /* -------------------------------------------------
