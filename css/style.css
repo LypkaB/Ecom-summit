@@ -339,6 +339,10 @@ header {
     text-transform: uppercase;
 }
 
+.btn-link-red a {
+    background-color: red;
+}
+
 .event-info__desc span:nth-child(1) {
     font-size: 18px;
     font-weight: 800;

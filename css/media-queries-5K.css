@@ -1955,6 +1955,10 @@
         padding-bottom: 4%;
         font-size: 96px;
     }
+
+    .page-fourth-video .banner__video-player {
+        margin-bottom: 3%;
+    }
 }
 
 @media (min-width: 5120px) {
