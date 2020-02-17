@@ -1380,6 +1380,16 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 9;
+    text-align: center;
+}
+
+.btn-sticky a {
+    display: block;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;

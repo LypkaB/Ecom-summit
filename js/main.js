@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     /*<----- Pop-up window ----->*/
-    $('.btn-link-popup, .btn-sticky').on('click', function(e) {
+    $('.btn-link-popup').on('click', function(e) {
         e.preventDefault();
         $('.popup').fadeIn('fast');
         return false;
