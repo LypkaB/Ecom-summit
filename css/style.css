@@ -1194,8 +1194,9 @@ footer {
 }
 
 .footer__desc {
-    -ms-flex-preferred-size: 27%;
-    flex-basis: 27%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    margin-right: 50px;
 }
 
 .footer-title {
@@ -1253,9 +1254,14 @@ footer {
     color: #797979;
 }
 
+.footer__info span:nth-child(3),
 .footer__info span:nth-child(4),
 .footer__info span:nth-child(5) {
     margin-bottom: 20px;
+}
+
+.footer__info .footer__info-sup {
+    color: white;
 }
 
 /* -------------------------------------------------
