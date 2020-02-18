@@ -2129,6 +2129,10 @@ footer {
     color: #d7d7d7;
 }
 
+.page-fourth-banner span a {
+    text-decoration: none!important;
+}
+
 /* -------------------------------------------------
 	Page №4: Video
    ------------------------------------------------- */
