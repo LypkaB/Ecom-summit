@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
     /*<----- Change link in checkbox ----->*/
     $('#second-check').change(function() {
-        if ($(this).attr('checked', 'unchecked')) {
+        if ($(this).attr('checked', 'checked')) {
             $('.order-form .btn-link a').attr('href', 'https://youtube.com');
         }
     });
