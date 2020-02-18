@@ -2130,13 +2130,9 @@ footer {
 }
 
 .page-fourth-banner span:nth-child(4) a {
-    font-weight: 800;
+    font-weight: 900;
     text-decoration: underline;
     color: #d7d7d7;
-}
-
-.page-fourth-banner span a {
-    text-decoration: none!important;
 }
 
 /* -------------------------------------------------
