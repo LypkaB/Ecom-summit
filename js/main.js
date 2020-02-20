@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
     /*<----- Change link in checkbox ----->*/
     $('#second-check').change(function() {
         if ($(this).attr('checked', 'checked')) {
-            $('.order-form .btn-link a').attr('href', 'http://ecomsummit.pay.clickbank.net/?cbitems=EES-Main1.1_1.1');
+            $('.order-form .btn-link a').attr('href', 'http://ecomsummit.pay.clickbank.net/?cbitems=EES-Main1.1_1.1&cbskin=28688&cbfid=41825');
         }
     });
 
