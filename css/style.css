@@ -296,7 +296,7 @@ header {
 .banner__share_buttons::after,
 .btn-link-red::after {
     position: absolute;
-    top: -70px;
+    top: -100px;
     content: '';
     left: -50px;
     background: url('../images/watch-training.png') no-repeat 0 0/100% auto;
